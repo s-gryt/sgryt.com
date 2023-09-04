@@ -5,7 +5,7 @@ date: 2023-08-21 15:00:00 CDT
 categories: [Software Development, Leadership]
 tags: [Team Lead, Developer Experience, Software Quality, Business]
 image:
-  path: /assets/img/posts/2023-08-21-team-leads-vital-role/background.jpeg
+  path: /assets/img/posts/2023-08-21-team-leads-vital-role/cover.png
   alt: Team Lead in Action
 ---
 

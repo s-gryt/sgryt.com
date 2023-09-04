@@ -1,3 +1,9 @@
+# [1.2.0](https://github.com/s-gryt/sgryt.com/compare/v1.1.0...v1.2.0) (2023-09-04)
+
+### Features
+
+- **posts:** add post about the code reviews ([e826220](https://github.com/s-gryt/sgryt.com/commit/e826220f4e23dfff14d6d16ac9a5bc38e6cd995d))
+
 # [1.1.0](https://github.com/s-gryt/sgryt.com/compare/v1.0.1...v1.1.0) (2023-09-04)
 
 ### Features

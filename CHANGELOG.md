@@ -1,3 +1,9 @@
+# [1.1.0](https://github.com/s-gryt/sgryt.com/compare/v1.0.1...v1.1.0) (2023-09-04)
+
+### Features
+
+- **posts:** add post about the team lead's role ([cfb826a](https://github.com/s-gryt/sgryt.com/commit/cfb826aaf1aef67ebc1017991bbbfe026b90df26))
+
 ## [1.0.1](https://github.com/s-gryt/sgryt.com/compare/v1.0.0...v1.0.1) (2023-09-04)
 
 ### Bug Fixes

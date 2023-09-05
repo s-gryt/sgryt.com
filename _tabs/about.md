@@ -6,7 +6,7 @@ order: 4
 
 <!-- markdownlint-disable MD041 -->
 
-Welcome to s-gryt.com, the personal website and blog of Sergii Grytsaienko. This website serves as a platform to share my insights, experiences, and expertise in the world of software engineering and technology.
+Welcome to sgryt.com, the personal website and blog of Sergii Grytsaienko. This website serves as a platform to share my insights, experiences, and expertise in the world of software engineering and technology.
 
 On this blog, I share in-depth articles and posts that delve into various aspects of software engineering, leadership, and technology trends. My content covers a wide array of topics, including:
 

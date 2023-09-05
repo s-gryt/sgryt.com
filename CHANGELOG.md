@@ -1,3 +1,9 @@
+## [1.5.1](https://github.com/s-gryt/sgryt.com/compare/v1.5.0...v1.5.1) (2023-09-05)
+
+### Bug Fixes
+
+- **about:** url typo fix ([4f5433d](https://github.com/s-gryt/sgryt.com/commit/4f5433d2f9cd4fff2bb07344390938d7c23f3d48))
+
 # [1.5.0](https://github.com/s-gryt/sgryt.com/compare/v1.4.0...v1.5.0) (2023-09-05)
 
 ### Features

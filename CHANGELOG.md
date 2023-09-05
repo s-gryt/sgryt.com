@@ -1,3 +1,9 @@
+# [1.3.0](https://github.com/s-gryt/sgryt.com/compare/v1.2.0...v1.3.0) (2023-09-05)
+
+### Features
+
+- **posts:** feat: add blog post about ESLint ([48173f6](https://github.com/s-gryt/sgryt.com/commit/48173f60522e15652969d73fee1614206c8b2ed9))
+
 # [1.2.0](https://github.com/s-gryt/sgryt.com/compare/v1.1.0...v1.2.0) (2023-09-04)
 
 ### Features

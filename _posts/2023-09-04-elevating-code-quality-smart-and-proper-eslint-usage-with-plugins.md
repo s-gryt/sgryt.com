@@ -189,9 +189,9 @@ If you use **Jest** for unit or integration tests, there are excellent ESLint pl
 
 - [eslint-plugin-jest](https://www.npmjs.com/package/eslint-plugin-jest){:target="\_blank"}: This plugin provides ESLint rules specifically tailored for Jest, ensuring that your test code follows recommended patterns and maintains consistency.
 
-- [eslint-plugin-jest-dom](https://www.npmjs.com/package/eslint-plugin-jest-dom){:target="\_blank"}: If you're using Jest along with the `@testing-library/dom` library, this plugin helps you write cleaner and more effective assertions for DOM testing.
+- [eslint-plugin-jest-dom](https://www.npmjs.com/package/eslint-plugin-jest-dom){:target="\_blank"}: If you're using Jest along with the [@testing-library/dom](https://www.npmjs.com/package/@testing-library/dom){:target="\_blank"} library, this plugin helps you write cleaner and more effective assertions for DOM testing.
 
-- [eslint-plugin-testing-library](https://www.npmjs.com/package/eslint-plugin-testing-library){:target="\_blank"}: When you use testing libraries like `@testing-library/react` or `@testing-library/vue`, this plugin assists in writing tests that focus on user behavior rather than implementation details.
+- [eslint-plugin-testing-library](https://www.npmjs.com/package/eslint-plugin-testing-library){:target="\_blank"}: When you use testing libraries like [@testing-library/react](https://www.npmjs.com/package/@testing-library/react){:target="\_blank"} or [@testing-library/vue](https://www.npmjs.com/package/@testing-library/vue), this plugin assists in writing tests that focus on user behavior rather than implementation details.
 
 ## Finding the Right Plugins
 
@@ -255,7 +255,7 @@ Once you've consolidated your `ESLint` configuration, consider publishing it to 
 
 After assembling your `ESLint` configuration and installing the necessary plugins, it's crucial to integrate `ESLint` into your existing repository. Running `ESLint` with the `--fix` option can automatically correct many issues, saving you valuable time and ensuring your code adheres to the defined standards.
 
-Moreover, you can integrate `ESLint` with your preferred Integrated Development Environment (IDE){:target="\_blank"}, such as [VSCode](https://marketplace.visualstudio.com/items?itemName=dbaeumer.vscode-eslint){:target="\_blank"} or [WebStorm](https://www.jetbrains.com/help/webstorm/eslint.html){:target="\_blank"}. These integrations allow you to apply automated code formatting and linting directly within your coding environment.
+Moreover, you can integrate `ESLint` with your preferred Integrated Development Environment (IDE), such as [VSCode](https://marketplace.visualstudio.com/items?itemName=dbaeumer.vscode-eslint){:target="\_blank"} or [WebStorm](https://www.jetbrains.com/help/webstorm/eslint.html){:target="\_blank"}. These integrations allow you to apply automated code formatting and linting directly within your coding environment.
 
 ## The Path to Code Quality
 

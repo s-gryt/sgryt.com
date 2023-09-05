@@ -1,3 +1,9 @@
+# [1.5.0](https://github.com/s-gryt/sgryt.com/compare/v1.4.0...v1.5.0) (2023-09-05)
+
+### Features
+
+- **about:** update About section ([31b9294](https://github.com/s-gryt/sgryt.com/commit/31b9294fe60856a561cf843be5b382835369871b))
+
 # [1.4.0](https://github.com/s-gryt/sgryt.com/compare/v1.3.0...v1.4.0) (2023-09-05)
 
 ### Features

@@ -1,3 +1,10 @@
+## [1.5.2](https://github.com/s-gryt/sgryt.com/compare/v1.5.1...v1.5.2) (2023-09-05)
+
+### Bug Fixes
+
+- **about:** update about content ([d4d6760](https://github.com/s-gryt/sgryt.com/commit/d4d67608ee6ae94b81864f84a6f43f49de212a85))
+- **post 2023-09-04:** url paths fix ([48c2fef](https://github.com/s-gryt/sgryt.com/commit/48c2fef02678ea962e57c428695a7834919b19b2))
+
 ## [1.5.1](https://github.com/s-gryt/sgryt.com/compare/v1.5.0...v1.5.1) (2023-09-05)
 
 ### Bug Fixes

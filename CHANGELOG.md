@@ -1,3 +1,9 @@
+# [1.6.0](https://github.com/s-gryt/sgryt.com/compare/v1.5.2...v1.6.0) (2023-09-10)
+
+### Features
+
+- add google analytics ([72d26f8](https://github.com/s-gryt/sgryt.com/commit/72d26f8a17237cba5800053e95b8ac0837f2bf10))
+
 ## [1.5.2](https://github.com/s-gryt/sgryt.com/compare/v1.5.1...v1.5.2) (2023-09-05)
 
 ### Bug Fixes

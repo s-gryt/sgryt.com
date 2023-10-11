@@ -1,3 +1,9 @@
+# [1.7.0](https://github.com/s-gryt/sgryt.com/compare/v1.6.0...v1.7.0) (2023-10-11)
+
+### Features
+
+- **posts:** add blog post about Tech Debt ([449cbfd](https://github.com/s-gryt/sgryt.com/commit/449cbfdccbaf08c53465b34877e6dee9bd8ae068))
+
 # [1.6.0](https://github.com/s-gryt/sgryt.com/compare/v1.5.2...v1.6.0) (2023-09-10)
 
 ### Features

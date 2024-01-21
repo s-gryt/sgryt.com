@@ -1,3 +1,9 @@
+# [1.8.0](https://github.com/s-gryt/sgryt.com/compare/v1.7.0...v1.8.0) (2024-01-21)
+
+### Features
+
+- **posts:** add blog post about Serverless Architecture with AWS ([c1ba7b7](https://github.com/s-gryt/sgryt.com/commit/c1ba7b7c26825fb853ac2b75ebfaae3f66db597e))
+
 # [1.7.0](https://github.com/s-gryt/sgryt.com/compare/v1.6.0...v1.7.0) (2023-10-11)
 
 ### Features

@@ -1,3 +1,9 @@
+# [1.9.0](https://github.com/s-gryt/sgryt.com/compare/v1.8.0...v1.9.0) (2024-02-03)
+
+### Features
+
+- **posts:** add blog post about Efficient Module Bundling and Smart Imports ([632812e](https://github.com/s-gryt/sgryt.com/commit/632812e3f0bfbacda06748b1854a07ec30fdfa1d))
+
 # [1.8.0](https://github.com/s-gryt/sgryt.com/compare/v1.7.0...v1.8.0) (2024-01-21)
 
 ### Features

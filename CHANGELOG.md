@@ -1,3 +1,9 @@
+## [1.9.1](https://github.com/s-gryt/sgryt.com/compare/v1.9.0...v1.9.1) (2024-04-20)
+
+### Bug Fixes
+
+- **config:** add giscus comments ([e5f0ed9](https://github.com/s-gryt/sgryt.com/commit/e5f0ed9d5fc5deee66aa6af375da2571113d055c))
+
 # [1.9.0](https://github.com/s-gryt/sgryt.com/compare/v1.8.0...v1.9.0) (2024-02-03)
 
 ### Features

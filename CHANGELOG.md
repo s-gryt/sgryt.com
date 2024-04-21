@@ -1,3 +1,9 @@
+## [1.9.2](https://github.com/s-gryt/sgryt.com/compare/v1.9.1...v1.9.2) (2024-04-21)
+
+### Bug Fixes
+
+- **footer:** disabled framework metadata ([568bd60](https://github.com/s-gryt/sgryt.com/commit/568bd604cbd3c03c30297ad1eddf22e94566778e))
+
 ## [1.9.1](https://github.com/s-gryt/sgryt.com/compare/v1.9.0...v1.9.1) (2024-04-20)
 
 ### Bug Fixes

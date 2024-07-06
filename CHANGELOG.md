@@ -1,3 +1,9 @@
+# [1.10.0](https://github.com/s-gryt/sgryt.com/compare/v1.9.2...v1.10.0) (2024-07-06)
+
+### Features
+
+- **posts:** add blog post about Transforming Monoliths into Serverless Architecture ([bd4e054](https://github.com/s-gryt/sgryt.com/commit/bd4e054755e71f00731252537fb678bd35e9abd2))
+
 ## [1.9.2](https://github.com/s-gryt/sgryt.com/compare/v1.9.1...v1.9.2) (2024-04-21)
 
 ### Bug Fixes

@@ -1,3 +1,13 @@
+# [1.11.0](https://github.com/s-gryt/sgryt.com/compare/v1.10.0...v1.11.0) (2024-07-15)
+
+### Bug Fixes
+
+- **config:** update description ([ffa3501](https://github.com/s-gryt/sgryt.com/commit/ffa35016ebe4fe05be9a7c0b18c39ee965ef236a))
+
+### Features
+
+- **seo:** update 02-15-24 headers ([6d96fb5](https://github.com/s-gryt/sgryt.com/commit/6d96fb567959f6b8350158139b72ddb4f2e9d0d2))
+
 # [1.10.0](https://github.com/s-gryt/sgryt.com/compare/v1.9.2...v1.10.0) (2024-07-06)
 
 ### Features

@@ -1,3 +1,9 @@
+# [1.12.0](https://github.com/s-gryt/sgryt.com/compare/v1.11.0...v1.12.0) (2024-12-26)
+
+### Features
+
+- add description ([2a89f4e](https://github.com/s-gryt/sgryt.com/commit/2a89f4ec3beb07834e4e07c73eac2913655dfadf))
+
 # [1.11.0](https://github.com/s-gryt/sgryt.com/compare/v1.10.0...v1.11.0) (2024-07-15)
 
 ### Bug Fixes

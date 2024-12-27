@@ -1,3 +1,9 @@
+# [1.13.0](https://github.com/s-gryt/sgryt.com/compare/v1.12.0...v1.13.0) (2024-12-27)
+
+### Features
+
+- **blog:** add post on Single Responsibility Principle in AWS Lambda ([3a74cdc](https://github.com/s-gryt/sgryt.com/commit/3a74cdcb52c95beb95769651fe34904d7ba4d427))
+
 # [1.12.0](https://github.com/s-gryt/sgryt.com/compare/v1.11.0...v1.12.0) (2024-12-26)
 
 ### Features

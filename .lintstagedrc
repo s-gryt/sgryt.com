@@ -1,6 +1,6 @@
 {
   "*": ["prettier --write --ignore-unknown"],
   "*.scss": ["stylelint --fix --allow-empty-input"],
-  "*.md": ["markdownlint"],
+  "*.md": ["markdownlint", "cspell --no-must-find-files"],
   "*.yml": ["eslint --cache --fix --quiet"]
 }

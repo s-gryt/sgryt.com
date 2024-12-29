@@ -1,0 +1,5 @@
+{
+  "language": "en",
+  "words": ["giscus", "Disqus"],
+  "ignorePaths": ["CHANGELOG.md"]
+}

@@ -31,6 +31,7 @@
     "@semantic-release/changelog": "^6.0.3",
     "@semantic-release/git": "^10.0.1",
     "commitizen": "^4.3.0",
+    "cspell": "^8.17.1",
     "cz-conventional-changelog": "^3.3.0",
     "eslint": "^8.46.0",
     "eslint-plugin-html": "^7.1.0",

@@ -1,3 +1,9 @@
+# [1.14.0](https://github.com/s-gryt/sgryt.com/compare/v1.13.0...v1.14.0) (2024-12-29)
+
+### Features
+
+- **blog:** implement Open-Closed Principle in serverless architecture ([9db2e3d](https://github.com/s-gryt/sgryt.com/commit/9db2e3db9533c038ac8c1ca8275444564a1b48a4))
+
 # [1.13.0](https://github.com/s-gryt/sgryt.com/compare/v1.12.0...v1.13.0) (2024-12-27)
 
 ### Features

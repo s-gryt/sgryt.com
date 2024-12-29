@@ -1,5 +1,15 @@
 {
+  "version": "0.2",
   "language": "en",
-  "words": ["giscus", "Disqus"],
+  "words": [
+    "giscus",
+    "Disqus",
+    "gryt",
+    "Liskov",
+    "Liskov's",
+    "Pollice",
+    "subclassing",
+    "Vlissides"
+  ],
   "ignorePaths": ["CHANGELOG.md"]
 }

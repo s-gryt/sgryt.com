@@ -2,7 +2,7 @@
 title: "Monolithic vs. Microservices Architecture with Lambda: How to Make the Switch"
 description: This article explores the journey of transitioning from a monolithic to a microservices architecture using AWS Lambda. It discusses the benefits of breaking down monolithic systems into smaller, scalable microservices and how modern tools like Node.js, TypeScript, and NestJS support this transformation. The piece covers architectural patterns like Domain-Driven Design (DDD), Backend for Frontend (BFF), and the complexities of managing networking, security, and observability in a microservices environment. The author also highlights how serverless technologies, such as AWS Lambda, can simplify this process, making it more efficient and cost-effective, especially for startups and agile teams.
 author: s-gryt
-date: 2024-02-15 15:00:00 CDT
+date: 2024-02-17 15:00:00 CDT
 categories:
   - Agility in Software Development
   - AWS Services
@@ -42,7 +42,7 @@ tags:
   - TypeScript
 mermaid: true
 image:
-  path: /assets/img/posts/2024-02-15-monolithic-to-microservices-with-lambda/cover.png
+  path: /assets/img/posts/2024-02-17-monolithic-to-microservices-with-lambda/cover.png
   alt: "Monolithic vs. Microservices Architecture with Lambda: How to Make the Switch"
 ---
 

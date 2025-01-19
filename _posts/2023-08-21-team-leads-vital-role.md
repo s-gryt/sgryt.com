@@ -1,13 +1,13 @@
 ---
-title: Team Lead's Vital Role in Enhancing Developer Experience, Elevating Software Quality, and Boosting Business
+title: "Team Lead's Vital Role in Enhancing Developer Experience, Elevating Software Quality, and Boosting Business"
 author: s-gryt
-description: Explore how team leads can transform developer experience, enhance software quality, and drive business success. From fostering collaboration and addressing technical debt to championing innovation and actionable leadership, this guide empowers you to lead your team to excellence.
+description: "Explore how team leads can transform developer experience, enhance software quality, and drive business success. From fostering collaboration and addressing technical debt to championing innovation and actionable leadership, this guide empowers you to lead your team to excellence."
 date: 2023-08-21 15:00:00 CDT
 categories: [Software Development, Leadership]
 tags: [Team Lead, Developer Experience, Software Quality, Business]
 image:
   path: /assets/img/posts/2023-08-21-team-leads-vital-role/cover.png
-  alt: Team Lead in Action
+  alt: "Team Lead in Action"
 ---
 
 In the ever-changing world of software development, creating a great user experience is more than just writing code. As a team lead, I've learned how important it is to make the development process better and improve the quality of software. In this blog post, I'll talk about how team leads can use smart techniques and a proactive approach to improve things in the team and across the business.

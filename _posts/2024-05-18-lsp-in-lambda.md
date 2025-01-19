@@ -1,6 +1,6 @@
 ---
-title: Why Does the Liskov Substitution Principle Matter in AWS Lambda Functions?
-description: Uncover the significance of the Liskov Substitution Principle (LSP) in AWS Lambda functions. Learn how to design flexible, maintainable serverless architectures that can adapt seamlessly to change while ensuring robust functionality.
+title: "Why Does the Liskov Substitution Principle Matter in AWS Lambda Functions?"
+description: "Uncover the significance of the Liskov Substitution Principle (LSP) in AWS Lambda functions. Learn how to design flexible, maintainable serverless architectures that can adapt seamlessly to change while ensuring robust functionality."
 author: s-gryt
 date: 2024-05-18 15:00:00 CST
 categories:
@@ -26,7 +26,7 @@ tags:
   - JavaScript
 image:
   path: /assets/img/posts/2024-05-18-lsp-in-lambda/cover.png
-  alt: Liskov Substitution Principle in AWS Lambda Functions
+  alt: "Liskov Substitution Principle in AWS Lambda Functions"
 ---
 
 ## Understanding the Liskov Substitution Principle (LSP)

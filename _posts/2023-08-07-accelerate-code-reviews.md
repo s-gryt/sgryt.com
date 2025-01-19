@@ -1,13 +1,13 @@
 ---
 title: "Mastering Code Reviews: Accelerate Code Reviews and Boost Productivity with These Tips!"
 author: s-gryt
-description: Discover actionable tips to transform your code review process! From leveraging linting tools and coding style guides to setting PR limits and fostering team learning, this guide shares strategies to enhance productivity, collaboration, and software quality.
+description: "Discover actionable tips to transform your code review process! From leveraging linting tools and coding style guides to setting PR limits and fostering team learning, this guide shares strategies to enhance productivity, collaboration, and software quality."
 date: 2023-08-07 15:00:00 CDT
 categories: [Software Development, Code Reviews]
 tags: [Code Review, Productivity Tips]
 image:
   path: /assets/img/posts/2023-08-07-accelerate-code-reviews/cover.png
-  alt: Code Review in Action
+  alt: "Code Review in Action"
 ---
 
 In my past experience, I encountered the challenge of conducting extensive code reviews. It consumed a significant amount of time and impacted productivity. However, I implemented several strategies that proved highly effective in enhancing the code review process.

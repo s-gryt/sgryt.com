@@ -1,7 +1,7 @@
 ---
-title: Exploring the Transition to Serverless Architecture with AWS
+title: "Exploring the Transition to Serverless Architecture with AWS"
 author: s-gryt
-description: Migrating to serverless architecture involves a shift in how computing infrastructure is managed, focusing on agility, scalability, and cost-efficiency. The migration can follow different patterns, such as Leapfrog, Organic, and Strangler, each offering distinct approaches based on risk tolerance and goals. Key considerations include the application's core purpose, how components are organized, applying Domain-Driven Design (DDD), and making critical decisions about data stores and microservice boundaries. By embracing these principles, organizations can modernize their systems, leveraging serverless to enhance performance and scalability while optimizing resource management.
+description: "Migrating to serverless architecture involves a shift in how computing infrastructure is managed, focusing on agility, scalability, and cost-efficiency. The migration can follow different patterns, such as Leapfrog, Organic, and Strangler, each offering distinct approaches based on risk tolerance and goals. Key considerations include the application's core purpose, how components are organized, applying Domain-Driven Design (DDD), and making critical decisions about data stores and microservice boundaries. By embracing these principles, organizations can modernize their systems, leveraging serverless to enhance performance and scalability while optimizing resource management."
 date: 2023-12-11 15:00:00 CDT
 categories:
   [
@@ -33,7 +33,7 @@ tags:
   ]
 image:
   path: /assets/img/posts/2023-12-11-serverless-transition-exploration-with-aws/cover.png
-  alt: Exploring the Transition to Serverless Architecture with AWS
+  alt: "Exploring the Transition to Serverless Architecture with AWS"
 ---
 
 Migrating to `Serverless architecture` is a transformative step that impacts how computing infrastructure is implemented and how application development and deployment are approached. In this discussion, we will delve into the nuances of serverless adoption and explore various aspects associated with it.

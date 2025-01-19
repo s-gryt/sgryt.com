@@ -2,7 +2,7 @@
 title: "Applying the Single Responsibility Principle in AWS Lambda Functions"
 description: "Discover the importance of the Single Responsibility Principle (SRP) in serverless architecture. Learn how to create modular, maintainable, and scalable AWS Lambda functions by focusing on single responsibilities."
 author: s-gryt
-date: 2024-03-15 15:00:00 CDT
+date: 2024-03-06 15:00:00 CDT
 categories:
   - Software Design Principles
   - Clean Code
@@ -25,7 +25,7 @@ tags:
   - JS
   - JavaScript
 image:
-  path: /assets/img/posts/2024-03-15-srp-in-lambda/cover.png
+  path: /assets/img/posts/2024-03-06-srp-in-lambda/cover.png
   alt: "Understanding the Single Responsibility Principle in AWS Lambda Functions"
 ---
 

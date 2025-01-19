@@ -2,15 +2,29 @@
   "version": "0.2",
   "language": "en",
   "words": [
+    "bursty",
+    "Chidamber",
+    "Crockford",
+    "deprioritize",
+    "dgram",
     "Disqus",
+    "Fargate",
     "giscus",
     "gryt",
+    "Kemerer",
+    "Kovalyov",
     "Liskov's",
     "Liskov",
+    "overcomplicating",
     "Pollice",
     "postconditions",
+    "Semgrep",
+    "SonarQube",
     "subclassing",
-    "Vlissides"
+    "transformative",
+    "Vlissides",
+    "Zachard",
+    "Zipkin"
   ],
   "ignorePaths": ["CHANGELOG.md"]
 }

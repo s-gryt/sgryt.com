@@ -1,6 +1,6 @@
 ---
-title: Efficient Module Bundling and Smart Imports
-description: Optimize your Node.js projects with efficient module bundling and smart import structures, enhancing code readability, maintainability, and developer productivity through simplified CommonJS and ECMAScript Module patterns.
+title: "Efficient Module Bundling and Smart Imports"
+description: "Optimize your Node.js projects with efficient module bundling and smart import structures, enhancing code readability, maintainability, and developer productivity through simplified CommonJS and ECMAScript Module patterns."
 author: s-gryt
 date: 2024-01-15 15:00:00 CDT
 categories:
@@ -35,7 +35,7 @@ tags:
   - Technical Debt
 image:
   path: /assets/img/posts/2024-01-15-import-challenges-in-nodejs/cover.png
-  alt: Import Challenges in Node.js
+  alt: "Import Challenges in Node.js"
 ---
 
 ## Navigating Import Challenges in Node.js Projects

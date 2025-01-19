@@ -1,7 +1,7 @@
 ---
 title: "Unpacking Technical Debt: A Guide for Developers"
 author: s-gryt
-description: A comprehensive guide to understanding and managing technical debt in software development, covering its origins, manifestations, classification, and practical strategies for effective mitigation and long-term code quality improvement.
+description: "A comprehensive guide to understanding and managing technical debt in software development, covering its origins, manifestations, classification, and practical strategies for effective mitigation and long-term code quality improvement."
 date: 2023-09-18 15:00:00 CDT
 categories:
   [
@@ -29,7 +29,7 @@ tags:
   ]
 image:
   path: /assets/img/posts/2023-09-18-technical-debt-unpacking-the-software-quality-challenge/cover.png
-  alt: Unpacking Technical Debt in Software Development
+  alt: "Unpacking Technical Debt in Software Development"
 ---
 
 ## Technical Debt: Unpacking the Software Quality Challenge

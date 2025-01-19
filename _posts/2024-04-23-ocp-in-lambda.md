@@ -2,7 +2,7 @@
 title: "Implementing the Open-Closed Principle in AWS Lambda Functions"
 description: "Learn how to apply the Open-Closed Principle (OCP) in AWS Lambda functions. Discover techniques for creating extensible and maintainable serverless architectures using JavaScript and TypeScript."
 author: s-gryt
-date: 2024-04-15 15:00:00 CDT
+date: 2024-04-23 15:00:00 CDT
 categories:
   - Software Design Principles
   - Clean Code
@@ -25,7 +25,7 @@ tags:
   - JS
   - JavaScript
 image:
-  path: /assets/img/posts/2024-04-15-ocp-in-lambda/cover.png
+  path: /assets/img/posts/2024-04-23-ocp-in-lambda/cover.png
   alt: "Applying the Open-Closed Principle in AWS Lambda Functions"
 ---
 

@@ -2,12 +2,13 @@
   "version": "0.2",
   "language": "en",
   "words": [
-    "giscus",
     "Disqus",
+    "giscus",
     "gryt",
-    "Liskov",
     "Liskov's",
+    "Liskov",
     "Pollice",
+    "postconditions",
     "subclassing",
     "Vlissides"
   ],

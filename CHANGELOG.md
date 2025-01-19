@@ -1,3 +1,9 @@
+# [1.15.0](https://github.com/s-gryt/sgryt.com/compare/v1.14.0...v1.15.0) (2025-01-19)
+
+### Features
+
+- **blog:** add LSP in serverless architecture ([6d6f19e](https://github.com/s-gryt/sgryt.com/commit/6d6f19e503d6ded8e46fd277f6000cd68897c5ad))
+
 # [1.14.0](https://github.com/s-gryt/sgryt.com/compare/v1.13.0...v1.14.0) (2024-12-29)
 
 ### Features

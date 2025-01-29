@@ -1,3 +1,9 @@
+# [1.16.0](https://github.com/s-gryt/sgryt.com/compare/v1.15.0...v1.16.0) (2025-01-29)
+
+### Features
+
+- **blog:** add isp for aws lambda architecture post ([9960e8a](https://github.com/s-gryt/sgryt.com/commit/9960e8acd999c4df7d99b6ae1bcd118421edb18c))
+
 # [1.15.0](https://github.com/s-gryt/sgryt.com/compare/v1.14.0...v1.15.0) (2025-01-19)
 
 ### Features

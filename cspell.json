@@ -2,6 +2,7 @@
   "version": "0.2",
   "language": "en",
   "words": [
+    "Architecting",
     "bursty",
     "Chidamber",
     "Crockford",
@@ -18,6 +19,7 @@
     "overcomplicating",
     "Pollice",
     "postconditions",
+    "Resizer",
     "Semgrep",
     "SonarQube",
     "subclassing",

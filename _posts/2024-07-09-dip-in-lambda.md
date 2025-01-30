@@ -451,29 +451,90 @@ class OptimizedImageResizer extends ImageResizer {
 
 This approach ensures that your Lambda function can efficiently choose the most appropriate service for the situation, without loading unnecessary dependencies.
 
+Yes, I remember the content on Dependency Inversion Principle (DIP) for AWS Lambda. I can improve the explanation by adding more examples. Here's an enhanced version:
+
 ## Minimizing Cold Starts Using Dependency Inversion
 
 Cold starts are an inevitable part of serverless architecture, but their impact can be minimized with **Dependency Inversion**. By decoupling high-latency or heavy-lifting operations from your core Lambda functions, you make the system more modular and responsive.
 
 For instance, you could use Dependency Injection (DI) to load only the necessary modules or services that are directly needed at the time of execution. The Lambda function itself can remain lightweight by relying on abstractions and delegating heavy processing to specialized, easily-swappable components.
 
-🔍**Example**: Consider abstracting a large database service behind a simple interface, and only initialize the database connection when required. By deferring the database connection setup to the moment of actual use, Lambda can avoid loading unnecessary services during cold starts:
+🔍**Example 1**: Consider abstracting a large database service behind a simple interface, and only initialize the database connection when required. By deferring the database connection setup to the moment of actual use, Lambda can avoid loading unnecessary services during cold starts:
 
-```javascript
-class DatabaseService {
-  connect() {
-    // ...
+```typescript
+interface DatabaseService {
+  query(sql: string): Promise<QueryResult>;
+}
+
+interface QueryResult {
+  rows: Record<string, unknown>[];
+  rowCount: number;
+}
+
+class RealDatabaseService implements DatabaseService {
+  private connection: DatabaseConnection;
+
+  async query(sql: string): Promise<QueryResult> {
+    if (!this.connection) {
+      this.connection = await createDatabaseConnection();
+    }
+    return this.connection.query(sql);
   }
 }
 
-class OptimizedDatabaseService extends DatabaseService {
-  connect() {
-    return new DatabaseClient(); // Lazily create the connection when needed
-  }
+interface DatabaseConnection {
+  query(sql: string): Promise<QueryResult>;
 }
+
+async function createDatabaseConnection(): Promise<DatabaseConnection> {
+  // Implementation details...
+}
+
+const handler = async (
+  event: APIGatewayProxyEvent,
+  context: Context
+): Promise<APIGatewayProxyResult> => {
+  const dbService: DatabaseService = new RealDatabaseService();
+  const result = await dbService.query(/*...   */);
+  return {
+    statusCode: 200,
+    body: JSON.stringify(result)
+  };
+};
 ```
 
-By adhering to this design, cold start performance improves because Lambda does not load the database connection unnecessarily on every invocation, making it more cost-efficient.
+🔍**Example 2**: Implement a [factory pattern](https://en.wikipedia.org/wiki/Factory_method_pattern) for creating service instances, allowing for easy swapping of implementations and [lazy loading](https://en.wikipedia.org/wiki/Lazy_loading):
+
+```typescript
+interface LoggerService {
+  log(message: string): void;
+}
+
+class ConsoleLogger implements LoggerService {
+  log(message: string): void {
+    console.log(message);
+  }
+}
+
+class ServiceFactory {
+  private static loggerInstance: LoggerService;
+
+  static getLogger(): LoggerService {
+    if (!this.loggerInstance) {
+      this.loggerInstance = new ConsoleLogger();
+    }
+    return this.loggerInstance;
+  }
+}
+
+const handler = async (event, context) => {
+  const logger = ServiceFactory.getLogger();
+  logger.log("Lambda function invoked");
+  // Rest of the handler logic
+};
+```
+
+The result? A serverless architecture that's not just efficient, but also a joy to maintain and extend, empowering teams to innovate with confidence in the AWS cloud landscape.
 
 ## Continuous Improvement Through Flexible Architecture
 
@@ -481,7 +542,7 @@ Serverless applications are not static—they require regular updates and change
 
 When you design with **DIP**, your application components are loosely coupled. This means that new functionality, third-party services, or even API updates can be integrated easily, enabling smoother evolution and reducing the need for costly re-architectures.
 
-**Example**: Suppose you initially used DynamoDB for storage but later switch to Aurora Serverless for better querying capabilities. With **DIP**, this transition can be done by swapping the underlying database layer without requiring significant changes to the business logic or performance-critical parts of your Lambda function.
+🔍**Example**: Suppose you initially used DynamoDB for storage but later switch to Aurora Serverless for better querying capabilities. With **DIP**, this transition can be done by swapping the underlying database layer without requiring significant changes to the business logic or performance-critical parts of your Lambda function.
 
 ## Conclusion: Scaling Serverless Efficiently with Dependency Inversion
 

@@ -451,8 +451,6 @@ class OptimizedImageResizer extends ImageResizer {
 
 This approach ensures that your Lambda function can efficiently choose the most appropriate service for the situation, without loading unnecessary dependencies.
 
-Yes, I remember the content on Dependency Inversion Principle (DIP) for AWS Lambda. I can improve the explanation by adding more examples. Here's an enhanced version:
-
 ## Minimizing Cold Starts Using Dependency Inversion
 
 Cold starts are an inevitable part of serverless architecture, but their impact can be minimized with **Dependency Inversion**. By decoupling high-latency or heavy-lifting operations from your core Lambda functions, you make the system more modular and responsive.

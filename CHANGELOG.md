@@ -1,3 +1,9 @@
+# [1.19.0](https://github.com/s-gryt/sgryt.com/compare/v1.18.0...v1.19.0) (2025-01-30)
+
+### Features
+
+- **blog:** enhance DIP post with concrete examples ([f35746c](https://github.com/s-gryt/sgryt.com/commit/f35746c6dac4c8b29cc609be17432230202959fb))
+
 # [1.18.0](https://github.com/s-gryt/sgryt.com/compare/v1.17.0...v1.18.0) (2025-01-30)
 
 ### Features

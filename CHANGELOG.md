@@ -1,3 +1,9 @@
+# [1.17.0](https://github.com/s-gryt/sgryt.com/compare/v1.16.0...v1.17.0) (2025-01-30)
+
+### Features
+
+- **blog:** add DIP for aws lambda architecture post ([bb5398b](https://github.com/s-gryt/sgryt.com/commit/bb5398beb7518a3ff589bd30bd28803f2f7eb56a))
+
 # [1.16.0](https://github.com/s-gryt/sgryt.com/compare/v1.15.0...v1.16.0) (2025-01-29)
 
 ### Features

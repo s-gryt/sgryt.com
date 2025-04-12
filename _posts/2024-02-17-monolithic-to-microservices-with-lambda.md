@@ -88,7 +88,7 @@ To facilitate communication between these services, intricate networking configu
 
 Implementing and managing these networking setups across multiple environments - development, testing, staging, and production - requires meticulous planning and coordination.
 
-![Microservices Architecture](/assets/img/posts/2024-02-15-monolithic-to-microservices-with-lambda/microservices.png){: width="972" height="589" }
+![Microservices Architecture](/assets/img/posts/2024-02-17-monolithic-to-microservices-with-lambda/microservices.png){: width="972" height="589" }
 
 Despite the complexity, breaking down monoliths into microservices can lead to a more scalable and maintainable architecture. It's a challenging yet rewarding journey.
 
@@ -98,7 +98,7 @@ All these components need to be containerized using `Docker`. Managing this intr
 
 And let's not forget about time-to-market, which is also a critical factor. With all these layers of complexity, the process can become slow and cumbersome.
 
-![Microservices Architecture](/assets/img/posts/2024-02-15-monolithic-to-microservices-with-lambda/app.png){: width="486" height="294" }
+![Microservices Architecture](/assets/img/posts/2024-02-17-monolithic-to-microservices-with-lambda/app.png){: width="486" height="294" }
 
 But why are we overcomplicating things? Why do we need an army of Ops, DevOps, and QA teams to support and retest all of these components?
 
@@ -171,7 +171,7 @@ By leveraging serverless and `Lambda` functions, you can build scalable, cost-ef
 
 There are many languages available for `Lambda` functions, with the most popular ones being `JavaScript` and `Python`. When you deploy a `Lambda` function, the execution environment provisioned by `AWS Lambda` includes the necessary runtime, libraries, and dependencies to run the function. Once the `Lambda` function completes its execution (or times out), the execution environment may be terminated. Notably, `Node.js` is an excellent choice here due to its relatively quick startup time.
 
-![Lambda Execution Environment](/assets/img/posts/2024-02-15-monolithic-to-microservices-with-lambda/lambda.png){: width="486" height="294" .w-50 .right}
+![Lambda Execution Environment](/assets/img/posts/2024-02-17-monolithic-to-microservices-with-lambda/lambda.png){: width="486" height="294" .w-50 .right}
 
 While microservices are substantial and often complex, `Lambdas` are small and focused, allowing for rapid execution and independent development.
 
@@ -234,18 +234,18 @@ By adopting this `serverless architecture`, we achieve a microservices-like envi
 
 `Serverless architecture` with `AWS Lambda` offers a compelling solution for modern application development, allowing teams to focus on delivering value rather than managing infrastructure.
 
-![Desktop View](/assets/img/posts/2024-02-15-monolithic-to-microservices-with-lambda/microservice.png){: width="972" height="589" }
+![Desktop View](/assets/img/posts/2024-02-17-monolithic-to-microservices-with-lambda/microservice.png){: width="972" height="589" }
 
 But wait... As we break down our architecture into numerous `Lambda` handlers, we encounter a new challenge: managing an ever-growing number of files with different dependencies and potential cross-dependencies. This can quickly become a chaotic mess, something I've seen many times in my career.
 
-![Disorganized Structure](/assets/img/posts/2024-02-15-monolithic-to-microservices-with-lambda/not_ok_structure.png){: width="486" height="294" .w-25 }
+![Disorganized Structure](/assets/img/posts/2024-02-17-monolithic-to-microservices-with-lambda/not_ok_structure.png){: width="486" height="294" .w-25 }
 
 To manage this complexity, it's essential to maintain an organized folder structure. This includes separating controllers, jobs, models, and libraries into different directories, similar to any mature framework. A main `serverless.js` file can manage per-domain `*.serverless.js` files to create Lambda functions systematically.
 
 One of the best tools for this purpose is the [Serverless Framework](https://www.serverless.com), an open-source platform that simplifies the deployment and management of serverless applications on various cloud providers. The Serverless ecosystem is rich with plugins that serve a variety of purposes, enhancing functionality and streamlining development.
 
-![Organized Structure](/assets/img/posts/2024-02-15-monolithic-to-microservices-with-lambda/ok_structure.png){: width="486" height="294" .w-25 }
-![Serverless Framework](/assets/img/posts/2024-02-15-monolithic-to-microservices-with-lambda/serverless.png){: width="486" height="294" .w-25 }
+![Organized Structure](/assets/img/posts/2024-02-17-monolithic-to-microservices-with-lambda/ok_structure.png){: width="486" height="294" .w-25 }
+![Serverless Framework](/assets/img/posts/2024-02-17-monolithic-to-microservices-with-lambda/serverless.png){: width="486" height="294" .w-25 }
 
 ## Embracing the Serverless Framework
 
@@ -303,7 +303,7 @@ The `ELK` stack (`Elasticsearch`, `Logstash`, and `Kibana`) can be replaced with
 
 `Zipkin`, used for distributed tracing, can be replaced with `X-Ray` and `CloudWatch Service Lens`. These tools provide detailed traces and insights into the execution of your `Lambda` functions, helping you to identify performance bottlenecks and troubleshoot issues effectively.
 
-![Serverless Architecture](/assets/img/posts/2024-02-15-monolithic-to-microservices-with-lambda/app_aws.png){: width="486" height="294" }
+![Serverless Architecture](/assets/img/posts/2024-02-17-monolithic-to-microservices-with-lambda/app_aws.png){: width="486" height="294" }
 
 ## Running Locally
 
@@ -311,7 +311,7 @@ Yes, you can run serverless applications locally! By using the [Serverless Offli
 
 However, this local emulation might not always be necessary. Given the simplicity of the `serverless architecture` - essentially a `Request -> Lambda (Business Logic) -> Response` flow - you can test your functions by writing unit tests for the handlers. This approach ensures that your logic is correct without the need for a full local environment.
 
-![Lambda Workflow](/assets/img/posts/2024-02-15-monolithic-to-microservices-with-lambda/lambda.png){: width="486" height="294" .w-50}
+![Lambda Workflow](/assets/img/posts/2024-02-17-monolithic-to-microservices-with-lambda/lambda.png){: width="486" height="294" .w-50}
 
 ## Simplified Controller
 

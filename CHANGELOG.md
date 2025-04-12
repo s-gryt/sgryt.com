@@ -1,3 +1,9 @@
+## [1.19.1](https://github.com/s-gryt/sgryt.com/compare/v1.19.0...v1.19.1) (2025-04-12)
+
+### Bug Fixes
+
+- **post-2024-02-17:** update image links ([f630875](https://github.com/s-gryt/sgryt.com/commit/f6308758019a5895bb8f07330ff4857a0b7a92a5))
+
 # [1.19.0](https://github.com/s-gryt/sgryt.com/compare/v1.18.0...v1.19.0) (2025-01-30)
 
 ### Features

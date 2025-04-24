@@ -1,3 +1,9 @@
+# [1.20.0](https://github.com/s-gryt/sgryt.com/compare/v1.19.1...v1.20.0) (2025-04-24)
+
+### Features
+
+- **blog:** add comparison post for AI coding assistants ([0dbb5d6](https://github.com/s-gryt/sgryt.com/commit/0dbb5d6fcd589f5ff07647ef5902a1742bf15361))
+
 ## [1.19.1](https://github.com/s-gryt/sgryt.com/compare/v1.19.0...v1.19.1) (2025-04-12)
 
 ### Bug Fixes

@@ -28,7 +28,7 @@ tags:
   - Software Architecture
   - Design Patterns
 image:
-  path: /assets/img/posts/2024-07-09-dependency-inversion-principle-in-lambda.md/cover.png
+  path: /assets/img/posts/2024-07-09-dependency-inversion-principle-in-lambda/cover.png
   alt: "Dependency Inversion Principle (DIP) in AWS Lambda Functions"
 ---
 

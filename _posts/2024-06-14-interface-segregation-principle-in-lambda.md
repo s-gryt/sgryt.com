@@ -1,10 +1,9 @@
 ---
-title: "Interface Segregation Principle (ISP) for AWS Lambda: Architecting Resilient Serverless Systems"
+title: "Interface Segregation Principle in AWS Lambda: Building Modular and Maintainable Serverless Applications"
 description: "Discover how the Interface Segregation Principle (ISP) enhances AWS Lambda functions by improving scalability, flexibility, and testability. Learn best practices for designing modular, maintainable serverless applications."
 author: s-gryt
 date: 2024-06-14 15:00:00 CST
 categories:
-  - Agile Methodologies
   - AWS Lambda
   - Clean Code
   - Code Quality
@@ -14,17 +13,19 @@ categories:
   - Software Development Best Practices
   - SOLID Principles
 tags:
-  - AWS
+  - AWS Lambda
   - Clean Code
   - Code Refactoring
   - ISP
   - JavaScript
-  - Lambda
+  - Lambda Optimization
   - Node.js
-  - Serverless
+  - Serverless Architecture
   - SOLID
+  - Software Architecture
+  - Design Patterns
 image:
-  path: /assets/img/posts/2024-06-14-isp-in-lambda/cover.png
+  path: /assets/img/posts/2024-06-14-interface-segregation-principle-in-lambda/cover.png
   alt: "Interface Segregation Principle in AWS Lambda Functions"
 ---
 
@@ -601,3 +602,11 @@ The **Interface Segregation Principle (ISP)** is a powerful tool for creating sc
 - ♻️**_Increased Maintainability:_** Clear separation of concerns simplifies long-term function management.
 
 Implementing **ISP** in Lambda functions not only improves current performance but also sets the foundation for future scalability. As serverless architectures continue to evolve, mastering **ISP** will be crucial for developers aiming to build robust, adaptable, and cost-effective solutions in the AWS ecosystem.
+
+## Related Posts
+
+- [Single Responsibility Principle in AWS Lambda: A Practical Guide](/posts/2024-03-06-srp-in-lambda)
+- [Open/Closed Principle in AWS Lambda: Building Extensible Serverless Applications](/posts/2024-04-23-ocp-in-lambda)
+- [Liskov Substitution Principle in AWS Lambda: Ensuring Type Safety and Reliability](/posts/2024-05-18-lsp-in-lambda)
+- [Dependency Inversion Principle in AWS Lambda: Building Flexible and Maintainable Serverless Applications](/posts/2024-07-09-dependency-inversion-principle-in-lambda)
+- [From Monolithic to Microservices with AWS Lambda: A Comprehensive Guide](/posts/2024-02-17-monolithic-to-microservices-with-lambda)

@@ -1,3 +1,9 @@
+## [1.21.1](https://github.com/s-gryt/sgryt.com/compare/v1.21.0...v1.21.1) (2025-04-25)
+
+### Bug Fixes
+
+- **blog 2025-04-24:** update AI models comparison ([967dac6](https://github.com/s-gryt/sgryt.com/commit/967dac691ce8029904604259f75d6355e534a23d))
+
 # [1.21.0](https://github.com/s-gryt/sgryt.com/compare/v1.20.0...v1.21.0) (2025-04-25)
 
 ### Features

@@ -1,49 +1,34 @@
 ---
-title: "Monolithic vs. Microservices Architecture with Lambda: How to Make the Switch"
-description: This article explores the journey of transitioning from a monolithic to a microservices architecture using AWS Lambda. It discusses the benefits of breaking down monolithic systems into smaller, scalable microservices and how modern tools like Node.js, TypeScript, and NestJS support this transformation. The piece covers architectural patterns like Domain-Driven Design (DDD), Backend for Frontend (BFF), and the complexities of managing networking, security, and observability in a microservices environment. The author also highlights how serverless technologies, such as AWS Lambda, can simplify this process, making it more efficient and cost-effective, especially for startups and agile teams.
+title: "From Monolithic to Microservices with AWS Lambda: A Comprehensive Guide"
+description: "Learn how to transition from monolithic to microservices architecture using AWS Lambda. Discover best practices for building scalable, maintainable serverless applications with Node.js, TypeScript, and modern architectural patterns."
 author: s-gryt
 date: 2024-02-17 15:00:00 CDT
 categories:
-  - Agility in Software Development
-  - AWS Services
+  - AWS Lambda
   - Backend Development
-  - Backend For Frontend
   - Cloud Computing
   - Distributed Systems
   - Event-Driven Architecture
-  - Lambda Functions
   - Microservices Architecture
-  - Microservices Best Practices
-  - Modern Software Development
-  - Serverless Best Practices
-  - Serverless Computing
+  - Serverless Architecture
+  - Software Architecture
   - Solution Architecture
 tags:
-  - API
-  - API Gateway
-  - AWS
   - AWS Lambda
-  - Lambda
-  - BFF
-  - Docker
-  - CI/CD
-  - Cloud Services
-  - HAProxy
-  - Infrastructure as Code
-  - Java
-  - JavaScript
+  - API Gateway
   - Microservices
-  - NestJS
-  - NGINX
-  - SQS
-  - SNS
-  - Node.js
   - Serverless
+  - Node.js
   - TypeScript
-mermaid: true
+  - BFF
+  - DDD
+  - Event-Driven
+  - Cloud Services
+  - Architecture
+  - Best Practices
 image:
   path: /assets/img/posts/2024-02-17-monolithic-to-microservices-with-lambda/cover.png
-  alt: "Monolithic vs. Microservices Architecture with Lambda: How to Make the Switch"
+  alt: "From Monolithic to Microservices with AWS Lambda"
 ---
 
 ## Transitioning from Monolithic to Microservices
@@ -375,6 +360,14 @@ describe('POST /items', () => {
 ...
 });
 ```
+
+## Related Posts
+
+- [Single Responsibility Principle in AWS Lambda: A Practical Guide](/posts/single-responsibility-principle-in-lambda)
+- [Open/Closed Principle in AWS Lambda: Building Extensible Serverless Applications](/posts/open-closed-principle-in-lambda)
+- [Liskov Substitution Principle in AWS Lambda: Ensuring Type Safety and Reliability](/posts/liskov-substitution-principle-in-lambda)
+- [Interface Segregation Principle in AWS Lambda: Building Modular and Maintainable Serverless Applications](/posts/interface-segregation-principle-in-lambda)
+- [Dependency Inversion Principle in AWS Lambda: Building Flexible and Maintainable Serverless Applications](/posts/dependency-inversion-principle-in-lambda)
 
 ## Conclusion
 

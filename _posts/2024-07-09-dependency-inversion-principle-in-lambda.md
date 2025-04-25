@@ -1,10 +1,9 @@
 ---
-title: "Why Dependency Inversion is a Game-Changer for Serverless AWS Lambda Functions"
-description: "Using the Dependency Inversion Principle (DIP) in AWS Lambda Functions leads to more scalable, testable, and cost-efficient serverless applications. By reducing tight coupling and unnecessary dependencies, it minimizes cold starts and simplifies maintenance. Here’s how it improves serverless design."
+title: "Dependency Inversion Principle in AWS Lambda: Building Flexible and Maintainable Serverless Applications"
+description: "Using the Dependency Inversion Principle (DIP) in AWS Lambda Functions leads to more scalable, testable, and cost-efficient serverless applications. By reducing tight coupling and unnecessary dependencies, it minimizes cold starts and simplifies maintenance. Here's how it improves serverless design."
 author: s-gryt
 date: 2024-07-09 15:00:00 CST
 categories:
-  - Agile Methodologies
   - AWS Lambda
   - Clean Code
   - Code Quality
@@ -26,8 +25,10 @@ tags:
   - Node.js
   - Serverless Architecture
   - SOLID
+  - Software Architecture
+  - Design Patterns
 image:
-  path: /assets/img/posts/2024-07-09-dip-in-lambda/cover.png
+  path: /assets/img/posts/2024-07-09-dependency-inversion-principle-in-lambda.md/cover.png
   alt: "Dependency Inversion Principle (DIP) in AWS Lambda Functions"
 ---
 
@@ -544,10 +545,18 @@ When you design with **DIP**, your application components are loosely coupled. T
 
 ## Conclusion: Scaling Serverless Efficiently with Dependency Inversion
 
-**Dependency Inversion** in serverless architectures isn’t just about cleaner code—it’s a game-changer for scalability and cost control. By decoupling business logic from infrastructure concerns, you gain the flexibility to swap implementations, optimize performance, and future-proof your applications. Loosely coupled components lead to faster cold starts, smoother updates, and more efficient resource allocation.
+**Dependency Inversion** in serverless architectures isn't just about cleaner code—it's a game-changer for scalability and cost control. By decoupling business logic from infrastructure concerns, you gain the flexibility to swap implementations, optimize performance, and future-proof your applications. Loosely coupled components lead to faster cold starts, smoother updates, and more efficient resource allocation.
 
 - ♻️**Cost efficiency:** Optimizing dependencies reduces unnecessary compute time.
 - ♻️**Faster cold starts:** Minimize initialization overhead by loading only what's needed.
 - ♻️**Seamless upgrades:** Independent services evolve without disrupting the system.
 
 With **DIP**, serverless applications stay lean, adaptable, and ready to scale as demands shift.
+
+## Related Posts
+
+- [Single Responsibility Principle in AWS Lambda: A Practical Guide](/posts/2024-03-06-srp-in-lambda)
+- [Open/Closed Principle in AWS Lambda: Building Extensible Serverless Applications](/posts/2024-04-23-ocp-in-lambda)
+- [Liskov Substitution Principle in AWS Lambda: Ensuring Type Safety and Reliability](/posts/2024-05-18-lsp-in-lambda)
+- [Interface Segregation Principle in AWS Lambda: Optimizing Service Contracts](/posts/2024-06-14-isp-in-lambda)
+- [From Monolithic to Microservices with AWS Lambda: A Comprehensive Guide](/posts/2024-02-17-monolithic-to-microservices-with-lambda)

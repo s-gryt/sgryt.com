@@ -2,7 +2,7 @@
 title: "Dependency Inversion Principle in AWS Lambda: Building Flexible and Maintainable Serverless Applications"
 description: "Using the Dependency Inversion Principle (DIP) in AWS Lambda Functions leads to more scalable, testable, and cost-efficient serverless applications. By reducing tight coupling and unnecessary dependencies, it minimizes cold starts and simplifies maintenance. Here's how it improves serverless design."
 author: s-gryt
-date: 2024-07-09 15:00:00 CST
+date: 2024-07-09 15:00:00 CDT
 categories:
   - AWS Lambda
   - Clean Code
@@ -30,6 +30,7 @@ tags:
 image:
   path: /assets/img/posts/2024-07-09-dependency-inversion-principle-in-lambda/cover.png
   alt: "Dependency Inversion Principle (DIP) in AWS Lambda Functions"
+redirect_from: /posts/dip-in-lambda/
 ---
 
 ## The Power of Dependency Inversion in AWS Lambda Functions: Lessons Learned

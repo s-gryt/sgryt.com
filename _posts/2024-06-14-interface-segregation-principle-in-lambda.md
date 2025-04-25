@@ -2,7 +2,7 @@
 title: "Interface Segregation Principle in AWS Lambda: Building Modular and Maintainable Serverless Applications"
 description: "Discover how the Interface Segregation Principle (ISP) enhances AWS Lambda functions by improving scalability, flexibility, and testability. Learn best practices for designing modular, maintainable serverless applications."
 author: s-gryt
-date: 2024-06-14 15:00:00 CST
+date: 2024-06-14 15:00:00 CDT
 categories:
   - AWS Lambda
   - Clean Code
@@ -27,6 +27,7 @@ tags:
 image:
   path: /assets/img/posts/2024-06-14-interface-segregation-principle-in-lambda/cover.png
   alt: "Interface Segregation Principle in AWS Lambda Functions"
+redirect_from: /posts/isp-in-lambda/
 ---
 
 ## Introduction: The Power of ISP in AWS Lambda

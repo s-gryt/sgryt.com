@@ -27,6 +27,7 @@ tags:
 image:
   path: /assets/img/posts/2024-04-23-open-closed-principle-in-lambda/cover.png
   alt: "Open/Closed Principle in AWS Lambda Functions"
+redirect_from: /posts/ocp-in-lambda/
 ---
 
 ## Understanding the Open-Closed Principle in Serverless Architecture

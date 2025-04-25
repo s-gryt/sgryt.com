@@ -90,8 +90,8 @@ Our bi-weekly code review sessions became a cornerstone of our team's growth. We
 
 ## Related Posts
 
-- [Technical Debt: Unpacking the Software Quality Challenge](/2023-09-18-technical-debt-unpacking-the-software-quality-challenge)
-- [Smart ESLint Usage with Plugins](/2023-09-04-elevating-code-quality-smart-and-proper-eslint-usage-with-plugins)
+- [Technical Debt: Unpacking the Software Quality Challenge](/posts/technical-debt-unpacking-the-software-quality-challenge)
+- [Smart ESLint Usage with Plugins](/posts/elevating-code-quality-smart-and-proper-eslint-usage-with-plugins)
 
 ## Further Reading
 

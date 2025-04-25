@@ -135,8 +135,8 @@ Team leads can influence broader organizational success through:
 
 ## Related Posts
 
-- [Accelerating Code Reviews](/2023-08-07-accelerate-code-reviews)
-- [Technical Debt Management](/2023-09-18-technical-debt-unpacking-the-software-quality-challenge)
+- [Accelerating Code Reviews](/posts/7-strategies-accelerate-code-reviews-boost-productivity)
+- [Technical Debt Management](/posts/technical-debt-unpacking-the-software-quality-challenge)
 
 ## Further Reading
 

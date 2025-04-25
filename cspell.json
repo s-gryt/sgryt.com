@@ -13,6 +13,7 @@
     "Dirox",
     "Disqus",
     "Fargate",
+    "Fullly",
     "giscus",
     "GPQA",
     "gryt",
@@ -28,12 +29,15 @@
     "postconditions",
     "Resizer",
     "Semgrep",
+    "sgryt",
     "SonarQube",
     "subclassing",
     "transformative",
     "Vidhya",
     "Vlissides",
+    "Wandb",
     "Zachard",
+    "ZDNET",
     "Zipkin"
   ],
   "ignorePaths": ["CHANGELOG.md"]

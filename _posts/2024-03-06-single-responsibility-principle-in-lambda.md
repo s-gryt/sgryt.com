@@ -1,32 +1,32 @@
 ---
-title: "Applying the Single Responsibility Principle in AWS Lambda Functions"
+title: "Single Responsibility Principle in AWS Lambda: A Practical Guide"
 description: "Discover the importance of the Single Responsibility Principle (SRP) in serverless architecture. Learn how to create modular, maintainable, and scalable AWS Lambda functions by focusing on single responsibilities."
 author: s-gryt
 date: 2024-03-06 15:00:00 CDT
 categories:
-  - Software Design Principles
-  - Clean Code
-  - SOLID Principles
-  - Serverless Architecture
   - AWS Lambda
-  - Code Quality
-  - Agile Methodologies
-  - Software Development Best Practices
-  - Refactoring Techniques
-tags:
-  - SRP
-  - AWS
-  - Lambda
-  - Serverless
-  - Code Refactoring
-  - SOLID
   - Clean Code
-  - Node.js
-  - JS
+  - Code Quality
+  - Refactoring Techniques
+  - Serverless Architecture
+  - Software Design Principles
+  - Software Development Best Practices
+  - SOLID Principles
+tags:
+  - AWS Lambda
+  - Clean Code
+  - Code Refactoring
+  - SRP
   - JavaScript
+  - Lambda Optimization
+  - Node.js
+  - Serverless Architecture
+  - SOLID
+  - Software Architecture
+  - Design Patterns
 image:
-  path: /assets/img/posts/2024-03-06-srp-in-lambda/cover.png
-  alt: "Understanding the Single Responsibility Principle in AWS Lambda Functions"
+  path: /assets/img/posts/2024-03-06-single-responsibility-principle-in-lambda/cover.png
+  alt: "Single Responsibility Principle in AWS Lambda Functions"
 ---
 
 ## Understanding the Single Responsibility Principle in Serverless Architecture
@@ -230,6 +230,14 @@ Applying the Single Responsibility Principle in AWS Lambda functions offers seve
 
 ## Conclusion: Why SRP Matters
 
-The Single Responsibility Principle is more than just a rule for organizing code—it’s a mindset for creating modular systems that are easier to maintain and scale. By understanding actors and their roles in driving change within a system, developers can design software that adapts seamlessly to evolving requirements.
+The Single Responsibility Principle is more than just a rule for organizing code—it's a mindset for creating modular systems that are easier to maintain and scale. By understanding actors and their roles in driving change within a system, developers can design software that adapts seamlessly to evolving requirements.
 
-While there’s no strict formula for applying SRP, practicing it consistently helps refine your engineering intuition over time. Focus on identifying clear reasons for change and grouping related responsibilities together—this will lead you toward cleaner codebases and more robust software designs. This revised content maintains clarity while ensuring it covers the topic thoroughly without excessive text. Each section is structured with SEO-friendly headers for better visibility.
+While there's no strict formula for applying SRP, practicing it consistently helps refine your engineering intuition over time. Focus on identifying clear reasons for change and grouping related responsibilities together—this will lead you toward cleaner codebases and more robust software designs. This revised content maintains clarity while ensuring it covers the topic thoroughly without excessive text. Each section is structured with SEO-friendly headers for better visibility.
+
+## Related Posts
+
+- [Open/Closed Principle in AWS Lambda: Building Extensible Serverless Applications](/posts/2024-04-23-open-closed-principle-in-lambda)
+- [Liskov Substitution Principle in AWS Lambda: Ensuring Type Safety and Reliability](/posts/2024-05-18-liskov-substitution-principle-in-lambda)
+- [Interface Segregation Principle in AWS Lambda: Building Modular and Maintainable Serverless Applications](/posts/2024-06-14-interface-segregation-principle-in-lambda)
+- [Dependency Inversion Principle in AWS Lambda: Building Flexible and Maintainable Serverless Applications](/posts/2024-07-09-dependency-inversion-principle-in-lambda)
+- [From Monolithic to Microservices with AWS Lambda: A Comprehensive Guide](/posts/2024-02-17-monolithic-to-microservices-with-lambda)

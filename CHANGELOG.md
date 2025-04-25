@@ -1,3 +1,11 @@
+# [1.21.0](https://github.com/s-gryt/sgryt.com/compare/v1.20.0...v1.21.0) (2025-04-25)
+
+### Features
+
+- **2023-08-07:** optimize code blog post for better search visibility ([587ab04](https://github.com/s-gryt/sgryt.com/commit/587ab04080362d08311ac69bca0c999f3bb1c4d1))
+- **2025-04-24:** optimize code blog post for better search visibility ([66ea4d3](https://github.com/s-gryt/sgryt.com/commit/66ea4d3e8cc3d6d7b0dcc1c21a0656f7c3291ad9))
+- **blog 2023-08-21:** optimize blog post for better search visibility ([670431c](https://github.com/s-gryt/sgryt.com/commit/670431c9e95fb72b3204486350ff72f95caee1f0))
+
 # [1.20.0](https://github.com/s-gryt/sgryt.com/compare/v1.19.1...v1.20.0) (2025-04-24)
 
 ### Features

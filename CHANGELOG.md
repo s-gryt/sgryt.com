@@ -1,3 +1,19 @@
+# [1.22.0](https://github.com/s-gryt/sgryt.com/compare/v1.21.1...v1.22.0) (2025-04-25)
+
+### Bug Fixes
+
+- **blog:** update related posts links ([68d325b](https://github.com/s-gryt/sgryt.com/commit/68d325bca68df06ba04a8bfd4b592aa04c5b3d5d))
+- **blog:** update related posts links ([6a25fc2](https://github.com/s-gryt/sgryt.com/commit/6a25fc2f72e269f91f7e159a17ee67e9df15c04d))
+
+### Features
+
+- **2024-02-17:** optimize code blog post for better search visibility ([61a9a7a](https://github.com/s-gryt/sgryt.com/commit/61a9a7ad12372353604ece726f247111c6baa5dc))
+- **2024-03-06:** optimize code blog post for better search visibility ([d23848b](https://github.com/s-gryt/sgryt.com/commit/d23848b7dfb3289e9761b397bbdddf4d0451e1f7))
+- **2024-04-23:** optimize code blog post for better search visibility ([6424ae1](https://github.com/s-gryt/sgryt.com/commit/6424ae160b8de4e3284f00c50aadb7c06e6d3b66))
+- **2024-05-18:** optimize code blog post for better search visibility ([a19e872](https://github.com/s-gryt/sgryt.com/commit/a19e872e70a8806967b75eee0df648decd7f5477))
+- **2024-06-14:** optimize code blog post for better search visibility ([8271f0d](https://github.com/s-gryt/sgryt.com/commit/8271f0d5c72adc1e0b4d1f815e6d8988247afdef))
+- **2024-07-09:** optimize code blog post for better search visibility ([ff1ebff](https://github.com/s-gryt/sgryt.com/commit/ff1ebff017dfca3a613b91e92a57326eac883f2b))
+
 ## [1.21.1](https://github.com/s-gryt/sgryt.com/compare/v1.21.0...v1.21.1) (2025-04-25)
 
 ### Bug Fixes

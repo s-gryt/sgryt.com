@@ -605,8 +605,8 @@ Implementing **ISP** in Lambda functions not only improves current performance b
 
 ## Related Posts
 
-- [Single Responsibility Principle in AWS Lambda: A Practical Guide](/posts/2024-03-06-srp-in-lambda)
-- [Open/Closed Principle in AWS Lambda: Building Extensible Serverless Applications](/posts/2024-04-23-ocp-in-lambda)
-- [Liskov Substitution Principle in AWS Lambda: Ensuring Type Safety and Reliability](/posts/2024-05-18-lsp-in-lambda)
-- [Dependency Inversion Principle in AWS Lambda: Building Flexible and Maintainable Serverless Applications](/posts/2024-07-09-dependency-inversion-principle-in-lambda)
-- [From Monolithic to Microservices with AWS Lambda: A Comprehensive Guide](/posts/2024-02-17-monolithic-to-microservices-with-lambda)
+- [Single Responsibility Principle in AWS Lambda: A Practical Guide](/posts/single-responsibility-principle-in-lambda)
+- [Open/Closed Principle in AWS Lambda: Building Extensible Serverless Applications](/posts/open-closed-principle-in-lambda)
+- [Liskov Substitution Principle in AWS Lambda: Ensuring Type Safety and Reliability](/posts/liskov-substitution-principle-in-lambda)
+- [Dependency Inversion Principle in AWS Lambda: Building Flexible and Maintainable Serverless Applications](/posts/dependency-inversion-principle-in-lambda)
+- [From Monolithic to Microservices with AWS Lambda: A Comprehensive Guide](/posts/monolithic-to-microservices-with-lambda)

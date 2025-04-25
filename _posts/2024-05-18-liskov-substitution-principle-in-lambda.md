@@ -1,8 +1,8 @@
 ---
 title: "Liskov Substitution Principle in AWS Lambda: Ensuring Type Safety and Reliability"
-description: "Uncover the significance of the Liskov Substitution Principle (LSP) in AWS Lambda functions. Learn how to design flexible, maintainable serverless architectures that can adapt seamlessly to change while ensuring robust functionality."
+description: "Learn how to apply the Liskov Substitution Principle (LSP) in AWS Lambda functions. Discover techniques for creating type-safe and reliable serverless architectures using JavaScript and TypeScript."
 author: s-gryt
-date: 2024-05-18 15:00:00 CST
+date: 2024-05-18 15:00:00 CDT
 categories:
   - AWS Lambda
   - Clean Code
@@ -239,8 +239,8 @@ As you continue your serverless journey, keep the lessons of **LSP** close at ha
 
 ## Related Posts
 
-- [Single Responsibility Principle in AWS Lambda: A Practical Guide](/posts/2024-03-06-srp-in-lambda)
-- [Open/Closed Principle in AWS Lambda: Building Extensible Serverless Applications](/posts/2024-04-23-ocp-in-lambda)
-- [Interface Segregation Principle in AWS Lambda: Building Modular and Maintainable Serverless Applications](/posts/2024-06-14-interface-segregation-principle-in-lambda)
-- [Dependency Inversion Principle in AWS Lambda: Building Flexible and Maintainable Serverless Applications](/posts/2024-07-09-dependency-inversion-principle-in-lambda)
-- [From Monolithic to Microservices with AWS Lambda: A Comprehensive Guide](/posts/2024-02-17-monolithic-to-microservices-with-lambda)
+- [Single Responsibility Principle in AWS Lambda: A Practical Guide](/posts/single-responsibility-principle-in-lambda)
+- [Open/Closed Principle in AWS Lambda: Building Extensible Serverless Applications](/posts/open-closed-principle-in-lambda)
+- [Interface Segregation Principle in AWS Lambda: Building Modular and Maintainable Serverless Applications](/posts/interface-segregation-principle-in-lambda)
+- [Dependency Inversion Principle in AWS Lambda: Building Flexible and Maintainable Serverless Applications](/posts/dependency-inversion-principle-in-lambda)
+- [From Monolithic to Microservices with AWS Lambda: A Comprehensive Guide](/posts/monolithic-to-microservices-with-lambda)

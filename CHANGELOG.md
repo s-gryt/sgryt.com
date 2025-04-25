@@ -1,3 +1,9 @@
+## [1.22.1](https://github.com/s-gryt/sgryt.com/compare/v1.22.0...v1.22.1) (2025-04-25)
+
+### Bug Fixes
+
+- **blog:** add redirect paths for improved SEO in Lambda principles posts ([c70ad6c](https://github.com/s-gryt/sgryt.com/commit/c70ad6c16629700dfe29fc1ac79a8f7d0d60c9d9))
+
 # [1.22.0](https://github.com/s-gryt/sgryt.com/compare/v1.21.1...v1.22.0) (2025-04-25)
 
 ### Bug Fixes

@@ -1,3 +1,9 @@
+## [1.22.2](https://github.com/s-gryt/sgryt.com/compare/v1.22.1...v1.22.2) (2025-04-26)
+
+### Bug Fixes
+
+- **blog:** add redirect path to blog posts ([aaf2f8b](https://github.com/s-gryt/sgryt.com/commit/aaf2f8bc64d01042880efdcf542824f8e33d65fe))
+
 ## [1.22.1](https://github.com/s-gryt/sgryt.com/compare/v1.22.0...v1.22.1) (2025-04-25)
 
 ### Bug Fixes

@@ -1,3 +1,13 @@
+# [1.23.0](https://github.com/s-gryt/sgryt.com/compare/v1.22.2...v1.23.0) (2025-05-06)
+
+### Bug Fixes
+
+- **blog:** correct redirect path formatting in code review strategies post ([125c53b](https://github.com/s-gryt/sgryt.com/commit/125c53b01e607f36a11a178f613063129602eab4))
+
+### Features
+
+- **blog:** add OpenAI prompt caching and cost optimization ([0ff5fbf](https://github.com/s-gryt/sgryt.com/commit/0ff5fbf4e8afd76c1c4be79c309b35c90556a164))
+
 ## [1.22.2](https://github.com/s-gryt/sgryt.com/compare/v1.22.1...v1.22.2) (2025-04-26)
 
 ### Bug Fixes

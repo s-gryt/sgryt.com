@@ -17,7 +17,7 @@ keywords: "code review, software development, team productivity, code quality, b
 image:
   path: /assets/img/posts/2023-08-07-7-strategies-accelerate-code-reviews-boost-productivity/cover.png
   alt: "Team conducting code review with focus on quality and collaboration"
-  redirect_from: /posts/accelerate-code-reviews/
+redirect_from: /posts/accelerate-code-reviews/
 ---
 
 Code reviews are a critical part of the software development process, but they can often become a bottleneck. In this comprehensive guide, I'll share seven proven strategies that transformed our code review process from a time-consuming task into an efficient, collaborative, and learning-focused activity.

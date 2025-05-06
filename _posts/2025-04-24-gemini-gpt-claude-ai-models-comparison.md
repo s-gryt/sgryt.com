@@ -2,6 +2,7 @@
 layout: post
 title: "VSCode AI Showdown: Which Coding Assistant Will Supercharge Your Development?"
 date: 2025-04-24 10:00:00 -0400
+author: s-gryt
 categories:
   [Development Tools, VSCode, Vibe Coding, AI Coding Assistants, Programming]
 tags:
@@ -18,9 +19,9 @@ tags:
     IDE Integration
   ]
 description: "Tired of switching between AI coding assistants? I put Gemini 2.5 Pro, GPT-4.1, and Claude 3.7 Sonnet to the test in VSCode. Discover which AI agent will transform your coding workflow and why developers are raving about these game-changing tools."
-author: s-gryt
-image: /assets/img/posts/2025-04-24-gemini-gpt-claude-ai-models-comparison/cover.png
-meta_keywords: "VSCode AI agents, best coding assistant, Gemini 2.5 Pro VSCode, GPT-4.1 coding, Claude 3.7 Sonnet development, AI code completion, developer tools comparison, programming assistance, IDE integration"
+image:
+  path: /assets/img/posts/2025-04-24-gemini-gpt-claude-ai-models-comparison/cover.png
+  alt: "VSCode AI Assistants Comparison: Gemini vs GPT vs Claude"
 ---
 
 <!-- markdownlint-disable MD033 -->

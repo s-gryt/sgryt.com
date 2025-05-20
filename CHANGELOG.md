@@ -1,3 +1,9 @@
+# [1.24.0](https://github.com/s-gryt/sgryt.com/compare/v1.23.0...v1.24.0) (2025-05-20)
+
+### Features
+
+- **blog:** introduce Chain of Draft technique for LLM outputs ([47be2fa](https://github.com/s-gryt/sgryt.com/commit/47be2fae6c0790483d3df680c6eab213d430ce78))
+
 # [1.23.0](https://github.com/s-gryt/sgryt.com/compare/v1.22.2...v1.23.0) (2025-05-06)
 
 ### Bug Fixes

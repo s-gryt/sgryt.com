@@ -70,6 +70,40 @@ What's fascinating is that this approach doesn't require any model fine-tuning o
 
 The effectiveness of CoD lies in its ability to address several cognitive and computational limitations inherent in standard, single-pass autoregressive text generation. It's not just about trying again; it's about systematically improving through guided iteration.
 
+```mermaid
+%%{ init: { 'theme': 'neutral' } }%%
+graph TB
+    subgraph Traditional["Traditional Generation (Single Pass)"]
+        T1[Token 1] --> T2[Token 2] --> T3[Token 3] --> T4["..."] --> T5[Token n]
+        style T1 fill:#f99,stroke:#333,stroke-width:1px
+        style T2 fill:#f99,stroke:#333,stroke-width:1px
+        style T3 fill:#f99,stroke:#333,stroke-width:1px
+        style T4 fill:#f99,stroke:#333,stroke-width:1px
+        style T5 fill:#f99,stroke:#333,stroke-width:1px
+    end
+
+    subgraph CoD["Chain of Draft (Multiple Passes)"]
+        D1["Draft 1"] --> C1{Critique} --> D2["Draft 2"] --> C2{Critique} --> D3["Draft 3"]
+        style D1 fill:#9f9,stroke:#333,stroke-width:1px
+        style D2 fill:#9f9,stroke:#333,stroke-width:1px
+        style D3 fill:#9f9,stroke:#333,stroke-width:1px
+        style C1 fill:#99f,stroke:#333,stroke-width:1px
+        style C2 fill:#99f,stroke:#333,stroke-width:1px
+    end
+
+    subgraph Benefits["Key Benefits"]
+        B1["Global Optimization<br>vs. Local Optimization"]
+        B2["Self-Reflection<br>& Improvement"]
+        B3["Complexity<br>Management"]
+        style B1 fill:#fcf,stroke:#333,stroke-width:1px
+        style B2 fill:#fcf,stroke:#333,stroke-width:1px
+        style B3 fill:#fcf,stroke:#333,stroke-width:1px
+    end
+
+    Traditional -.- |"Limitations"| CoD
+    CoD --> Benefits
+```
+
 ### Overcoming Local Optimization
 
 Traditional autoregressive generation, where an LLM predicts one word at a time, often falls into the trap of "local optimization." This means the model makes decisions that seem best for the immediate next word or phrase, without a full view of the global structure or overall coherence of the intended response. This can lead to outputs that start strong but meander, lose focus, or fail to address all aspects of a complex prompt. Articles discussing [decoding strategies in LLMs](https://www.invisible.co/blog/how-to-teach-chain-of-thought-reasoning-to-your-llm) often touch upon these greedy approaches and their pitfalls, such as repetition or divergence from the main topic. CoD, by implementing iterative drafting, allows the model to revisit and revise its work holistically. Each draft provides a new, more complete context, enabling the model to make decisions that are better aligned with the global objective, leading to more coherent and well-structured outputs. It's akin to a human writer stepping back to see the bigger picture after completing a section, outlining main arguments first, and then elaborating, rather than just focusing on the current sentence and hoping the overall narrative emerges correctly.
@@ -227,6 +261,15 @@ These examples illustrate how the LLM is guided to break down the problem into e
 
 The research demonstrates impressive performance improvements across various benchmarks:
 
+```mermaid
+%%{ init: { 'theme': 'neutral' } }%%
+pie title "Performance Improvements with Chain of Draft"
+    "Reasoning +12.8%" : 12.8
+    "Writing +9.2%" : 9.2
+    "Coding +8.7%" : 8.7
+    "Mathematics +7.5%" : 7.5
+```
+
 | Task Type   | Improvement with CoD |
 | ----------- | -------------------- |
 | Reasoning   | +12.8%               |
@@ -237,6 +280,32 @@ The research demonstrates impressive performance improvements across various ben
 What's particularly notable is that these improvements were achieved without any model fine-tuning or architectural changes - simply by changing the generation process.
 
 ## Key Findings from the Research
+
+```mermaid
+%%{ init: { 'theme': 'neutral' } }%%
+graph LR
+    A((CoD<br>Benefits)) --> B[Universality]
+    A --> C[Complementarity]
+    A --> D[Efficiency]
+    A --> E[Scaling]
+
+    B --- B1[Works across<br>model sizes]
+    B --- B2[Works across<br>architectures]
+
+    C --- C1[Combines with<br>Chain of Thought]
+    C --- C2[Enhances other<br>prompting methods]
+
+    D --- D1[Optimizable<br>computation]
+    D --- D2[Minimal<br>overhead]
+
+    E --- E1[Greater gains<br>with stronger<br>models]
+
+    style A fill:#bbf,stroke:#333,stroke-width:2px,color:#000
+    style B fill:#ddf,stroke:#333,stroke-width:1px,color:#000
+    style C fill:#ddf,stroke:#333,stroke-width:1px,color:#000
+    style D fill:#ddf,stroke:#333,stroke-width:1px,color:#000
+    style E fill:#ddf,stroke:#333,stroke-width:1px,color:#000
+```
 
 1. **Universality**: CoD improves performance across model sizes and architectures
 2. **Complementarity**: The technique can be combined with other prompting methods like Chain of Thought
@@ -251,7 +320,26 @@ The Chain of Draft technique is not just a theoretical construct; its iterative 
 
 In the realm of content creation - be it for blog posts, marketing copy, scripts, or creative writing - CoD empowers LLMs to produce outputs that are significantly more coherent, engaging, and stylistically polished. Instead of a single, potentially uneven draft, CoD can guide the model to first establish a narrative arc or core message, then flesh it out with compelling details and persuasive language, and finally refine the tone and flow. For instance, an AI writing assistant like those offered by [Jasper](https://www.jasper.ai/) or [Writesonic](https://writesonic.com/) could leverage CoD internally to help users generate higher-quality first drafts of articles by iteratively improving structure, argument strength, and reader engagement, moving far beyond simple sentence completion. This iterative process ensures that the final piece is not only grammatically correct but also strategically effective.
 
-#### Example: Generating a Marketing Email Campaign\*\*
+```mermaid
+%%{ init: { 'theme': 'neutral' } }%%
+graph LR
+    A([Prompt]) --> B([Draft 1])
+    B --> C{Critique 1}
+    C --> D([Draft 2])
+    D --> E{Critique 2}
+    E --> F([Draft 3])
+    F --> G([Final Output])
+
+    style A fill:#bbf,stroke:#333,stroke-width:2px,color:#000
+    style B fill:#ddf,stroke:#333,stroke-width:1px,color:#000
+    style C fill:#ccf,stroke:#333,stroke-width:2px,color:#000
+    style D fill:#ddf,stroke:#333,stroke-width:1px,color:#000
+    style E fill:#ccf,stroke:#333,stroke-width:2px,color:#000
+    style F fill:#ddf,stroke:#333,stroke-width:1px,color:#000
+    style G fill:#dfd,stroke:#333,stroke-width:2px,color:#000
+```
+
+#### Example: Generating a Marketing Email Campaign
 
 Imagine using CoD to create a 3-email sequence for a new product launch:
 
@@ -272,6 +360,25 @@ Imagine using CoD to create a 3-email sequence for a new product launch:
 ### Technical Documentation
 
 Crafting clear, accurate, and comprehensive technical documentation is a critical but often challenging task, vital for user understanding and product success. CoD's structured approach is exceptionally well-suited for this. An LLM can first generate an outline of a manual or API documentation, covering all essential sections. Subsequent drafts can then elaborate on each function or feature with precise descriptions, provide illustrative code examples, define terminology unambiguously, and ensure logical organization and internal consistency (e.g., ensuring all parameters mentioned are defined). This is particularly valuable for complex systems where missing details or ambiguities can lead to significant user confusion or errors in implementation. AI tools are increasingly used for [technical documentation generation and maintenance](https://addepto.com/blog/ai-for-technical-documentation-how-can-ai-enhance-accuracy-and-conciseness/), and CoD can further enhance their ability to produce user-friendly and maintainable documents by ensuring all facets are covered systematically and reviewed for clarity before finalization, reducing the burden on human technical writers to catch every detail in the first pass.
+
+```mermaid
+%%{ init: { 'theme': 'neutral' } }%%
+graph LR
+    A[API Doc<br>Prompt] --> B["Draft 1<br>(Basic Info)"]
+    B --> C["Critique<br>Missing Details!"]
+    C --> D["Draft 2<br>(Added Auth, Status<br>Codes, Examples)"]
+    D --> E["Critique<br>Need Field Descriptions!"]
+    E --> F["Draft 3<br>(Complete Doc<br>with Type Info)"]
+    F --> G[Developer-Ready<br>Documentation]
+
+    style A fill:#bbf,stroke:#333,stroke-width:2px,color:#000
+    style B fill:#ddf,stroke:#333,stroke-width:1px,color:#000
+    style C fill:#ccf,stroke:#333,stroke-width:2px,color:#000
+    style D fill:#ddf,stroke:#333,stroke-width:1px,color:#000
+    style E fill:#ccf,stroke:#333,stroke-width:2px,color:#000
+    style F fill:#ddf,stroke:#333,stroke-width:1px,color:#000
+    style G fill:#dfd,stroke:#333,stroke-width:2px,color:#000
+```
 
 #### Example: Documenting a New API Endpoint
 
@@ -299,6 +406,32 @@ Suppose we need to document a `/user/{id}/profile` GET endpoint:
 ### Code Generation
 
 Modern software development often involves intricate planning, precise implementation, and iterative refactoring - a workflow that naturally aligns with the CoD methodology. When tasked with generating code, an LLM using CoD could first produce a high-level algorithmic structure or pseudocode. Subsequent drafts could translate this into a specific programming language, implement detailed logic for each module, and then refine the code for efficiency, readability, and adherence to coding standards. This allows for a more robust approach to AI-assisted programming, reducing the likelihood of bugs that might arise from a single-pass generation and facilitating the creation of more complex software components. Platforms like GitHub Copilot already assist with code, and CoD principles could further enhance their ability to tackle larger, more structured coding tasks.
+
+```mermaid
+%%{ init: { 'theme': 'neutral', 'themeVariables': { 'fontSize': '16px', 'primaryColor': '#bbf' } } }%%
+graph LR
+    Start([Start]) --> Prompt["Initial Prompt:<br>CSV Filter Script"]
+    Prompt --> Basic["Basic Script<br>Implementation"]
+    Basic --> Error["Error Handling<br>Critique"]
+    Error --> Improved["Improved Script<br>+ Arguments"]
+    Improved --> Doc["Documentation<br>Critique"]
+    Doc --> Final["Production-Ready<br>Script"]
+    Final --> End([End])
+
+    %% Notes as separate nodes with dashed connections
+    Basic -.-> BasicNote["Simple CSV reader<br>with hardcoded values"]
+    Improved -.-> ImprovedNote["Added error handling<br>and command line args"]
+    Final -.-> FinalNote["Complete with docstrings<br>and robust error handling"]
+
+    %% Styling
+    classDef startEnd fill:#bbf,stroke:#333,stroke-width:2px,color:#000,font-size:14px
+    classDef mainNode fill:#ddf,stroke:#333,stroke-width:1px,color:#000,font-size:14px
+    classDef noteNode fill:#f8f8f8,stroke:#bbb,stroke-width:1px,color:#666,font-size:12px,stroke-dasharray: 5 5
+
+    class Start,End startEnd
+    class Prompt,Basic,Error,Improved,Doc,Final mainNode
+    class BasicNote,ImprovedNote,FinalNote noteNode
+```
 
 #### Example: Generating a Python Script for Data Processing
 
@@ -356,6 +489,32 @@ Modern software development often involves intricate planning, precise implement
 
 The standards for academic writing are exceptionally high, demanding rigorous argumentation, thorough literature integration, precise language, and meticulous citation. CoD can assist researchers and students by guiding an LLM through the process of drafting research papers, essays, or literature reviews. An initial draft might focus on outlining the core thesis and supporting arguments. Later drafts can integrate evidence from cited sources (potentially combined with RAG techniques to ensure factual grounding from specific scholarly articles), refine the logical flow between sections, and ensure the language meets academic conventions for clarity and objectivity. For example, when writing a literature review, the first draft might list key papers and their main findings. A second draft could synthesize these findings, drawing connections and identifying gaps. A third draft could then polish the language, ensuring proper citation and a coherent narrative. This iterative refinement is crucial for producing scholarly work that withstands peer review and contributes meaningfully to its field. Several [AI tools for academia](https://www.youtube.com/watch?v=IBsBixGTh-I) are emerging, and CoD can be a powerful engine behind them, helping to structure complex arguments and ensure comprehensive coverage of the topic.
 
+```mermaid
+%%{ init: { 'theme': 'neutral', 'themeVariables': { 'fontSize': '16px', 'primaryColor': '#bbf' } } }%%
+graph LR
+    A["Initial Draft:<br>Basic Framework"] --> B{"Critique 1:<br>Missing Elements"}
+    B --> C["Draft 2:<br>Enhanced Detail"]
+    C --> D{"Critique 2:<br>Academic Rigor<br>Needed"}
+    D --> E["Draft 3:<br>Research-Ready"]
+    E --> F["Final Output:<br>Publication Quality"]
+
+    %% Additional details
+    C -.-> C1["• N=100 participants<br>• SMAT test<br>• t-test/ANCOVA"]
+    E -.-> E1["• IRB approval<br>• Random assignment<br>• Matched curriculum"]
+
+    classDef draftNode fill:#ddf,stroke:#333,stroke-width:1px,color:#000,font-size:14px
+    classDef critiqueNode fill:#ccf,stroke:#333,stroke-width:2px,color:#000,font-size:14px,shape:diamond
+    classDef startNode fill:#bbf,stroke:#333,stroke-width:2px,color:#000,font-size:14px
+    classDef endNode fill:#dfd,stroke:#333,stroke-width:2px,color:#000,font-size:14px
+    classDef detailNode fill:#f8f8f8,stroke:#bbb,stroke-width:1px,color:#666,font-size:12px,stroke-dasharray: 5 5
+
+    class A startNode
+    class B,D critiqueNode
+    class C,E draftNode
+    class F endNode
+    class C1,E1 detailNode
+```
+
 #### Example: Drafting a Methodology Section
 
 - **Prompt to LLM:** "Draft a methodology section for a study comparing online learning (OL) vs. traditional classroom (TC) effectiveness on math scores in 8th graders."
@@ -372,9 +531,30 @@ The standards for academic writing are exceptionally high, demanding rigorous ar
 - **Draft 3 (LLM):** Adds that students were randomly assigned. Mentions IRB approval obtained. Specifies that curriculum topics were aligned. Notes that outliers will be checked (e.g., +/- 3 SD) and assumptions of ANCOVA (e.g., homogeneity of regression slopes) will be tested.
 - **Final Output:** A detailed, methodologically sound section suitable for an academic paper.
 
-## Implementation Example
-
 Here's a simplified example of how you might implement Chain of Draft in a prompt:
+
+```mermaid
+%%{ init: { 'theme': 'base', 'themeVariables': { 'textColor': '#888', 'noteTextColor': '#888' } } }%%
+sequenceDiagram
+    participant U as User
+    participant S as System
+    participant LLM
+
+    Note over U,LLM: Interactive Chain of Draft Process
+
+    U->>S: "Explain neural networks to a high school student."
+
+    S->>LLM: Request Draft 1 (Outline)
+    LLM-->>S: Return outline of key concepts
+
+    S->>LLM: Request Draft 2 (Expand with examples)
+    LLM-->>S: Return expanded explanation
+
+    S->>LLM: Request Draft 3 (Review and improve)
+    LLM-->>S: Return polished explanation
+
+    S->>U: Deliver final polished explanation
+```
 
 ```text
 User: Explain the concept of neural networks to a high school student.
@@ -393,6 +573,39 @@ Label each draft clearly, and include your self-critique between drafts.
 
 While Chain of Draft offers significant benefits, it's important to consider its limitations:
 
+```mermaid
+%%{ init: { 'theme': 'neutral', 'themeVariables': { 'fontSize': '16px', 'primaryColor': '#bbf' } } }%%
+graph LR
+    COD["CoD Limitations"] --> A["Computational<br>Overhead"]
+    COD --> B["Potential for<br>Repetition"]
+    COD --> C["Implementation<br>Complexity"]
+    COD --> D["Quality of<br>Critique"]
+
+    A -.-> A1["• Multiple drafts require<br>&nbsp;&nbsp;additional tokens"]
+    A -.-> A2["• Increased processing time"]
+    A -.-> A3["• Higher API costs"]
+
+    B -.-> B1["• Models may circle in<br>&nbsp;&nbsp;refinement loops"]
+    B -.-> B2["• Need careful prompting<br>&nbsp;&nbsp;for novelty"]
+    B -.-> B3["• Diminishing returns<br>&nbsp;&nbsp;after N iterations"]
+
+    C -.-> C1["• Careful prompt engineering<br>&nbsp;&nbsp;required"]
+    C -.-> C2["• Custom infrastructure<br>&nbsp;&nbsp;may be needed"]
+    C -.-> C3["• Multi-step orchestration<br>&nbsp;&nbsp;challenges"]
+
+    D -.-> D1["• Dependent on model's<br>&nbsp;&nbsp;self-reflection"]
+    D -.-> D2["• Weak critique =<br>&nbsp;&nbsp;weak improvement"]
+    D -.-> D3["• Model may miss<br>&nbsp;&nbsp;subtle flaws"]
+
+    classDef mainNode fill:#bbf,stroke:#333,stroke-width:2px,color:#000,font-size:14px
+    classDef secondNode fill:#ddf,stroke:#333,stroke-width:1px,color:#000,font-size:14px
+    classDef leafNode fill:#eef,stroke:#333,stroke-width:1px,color:#000,font-size:12px
+
+    class COD mainNode
+    class A,B,C,D secondNode
+    class A1,A2,A3,B1,B2,B3,C1,C2,C3,D1,D2,D3 leafNode
+```
+
 1. **Computational Overhead**: Multiple drafts require additional computation time and token usage, which can be a concern for very long texts or latency-sensitive applications.
 2. **Potential for Repetition**: Without careful prompting for novelty in each draft, models may sometimes repeat content or get stuck in refinement loops that don't add substantial value.
 3. **Implementation Complexity**: Effectively managing the drafting process, especially the self-critique prompts, requires careful prompt design and potentially custom infrastructures or orchestration for production use.
@@ -401,6 +614,54 @@ While Chain of Draft offers significant benefits, it's important to consider its
 ## Future Directions
 
 The research into Chain of Draft and iterative refinement techniques is ongoing and vibrant, suggesting several promising future directions:
+
+```mermaid
+%%{ init: { 'theme': 'neutral', 'themeVariables': { 'fontSize': '16px', 'primaryColor': '#bbf' } } }%%
+graph LR
+    FD(("Future<br>Directions"))
+
+    %% First row of categories
+    FD --> SDS["Specialized Drafting<br>Strategies"]
+    FD --> HHW["Hybrid Human-AI<br>Workflows"]
+    FD --> ADM["Automated Drafting<br>Management"]
+
+    %% Second row of categories (for better layout)
+    FD --> MMD["Multi-modal<br>Drafting"]
+    FD --> OPT["Optimizing<br>Efficiency"]
+
+    %% Specialized Drafting details
+    SDS -.-> SDS1["• Legal documents"]
+    SDS -.-> SDS2["• Scientific papers"]
+    SDS -.-> SDS3["• Coding languages"]
+
+    %% Hybrid Human-AI details
+    HHW -.-> HHW1["• Human feedback<br>&nbsp;&nbsp;points"]
+    HHW -.-> HHW2["• Interactive<br>&nbsp;&nbsp;refinement"]
+    HHW -.-> HHW3["• Expert oversight"]
+
+    %% Automated Drafting details
+    ADM -.-> ADM1["• Dynamic draft<br>&nbsp;&nbsp;numbers"]
+    ADM -.-> ADM2["• Task-specific<br>&nbsp;&nbsp;strategies"]
+    ADM -.-> ADM3["• Adaptive critique<br>&nbsp;&nbsp;focus"]
+
+    %% Multi-modal details
+    MMD -.-> MMD1["• Images"]
+    MMD -.-> MMD2["• Audio"]
+    MMD -.-> MMD3["• Video"]
+
+    %% Optimization details
+    OPT -.-> OPT1["• Smaller models<br>&nbsp;&nbsp;for critique"]
+    OPT -.-> OPT2["• Selective<br>&nbsp;&nbsp;regeneration"]
+    OPT -.-> OPT3["• Parallel processing"]
+
+    classDef mainNode fill:#bbf,stroke:#333,stroke-width:2px,color:#000,font-size:16px
+    classDef secondNode fill:#ddf,stroke:#333,stroke-width:1px,color:#000,font-size:14px
+    classDef leafNode fill:#eef,stroke:#333,stroke-width:1px,color:#000,font-size:12px
+
+    class FD mainNode
+    class SDS,HHW,ADM,MMD,OPT secondNode
+    class SDS1,SDS2,SDS3,HHW1,HHW2,HHW3,ADM1,ADM2,ADM3,MMD1,MMD2,MMD3,OPT1,OPT2,OPT3 leafNode
+```
 
 1. **Specialized Drafting Strategies**: Developing domain-specific drafting and critique approaches tailored for particular types of content, like legal documents, scientific papers, or specific coding languages.
 2. **Hybrid Human-AI Workflows**: Creating more seamless ways to integrate human feedback and expertise at specific points within the automated drafting cycle, allowing for human oversight where it's most impactful.
@@ -411,6 +672,76 @@ The research into Chain of Draft and iterative refinement techniques is ongoing 
 ## Conclusion
 
 Chain of Draft represents a significant and intuitive advancement in how we can leverage the power of large language models. By emulating the human writing process of iterative drafting, critical review, and thoughtful revision, CoD allows us to guide LLMs toward producing text that is not only more accurate and coherent but also more nuanced and fit for purpose. Its simplicity from a conceptual standpoint, combined with its effectiveness across various tasks and its versatility, makes it an invaluable technique for anyone serious about working with language models to achieve high-quality outputs.
+
+```mermaid
+%%{ init: { 'theme': 'neutral' } }%%
+graph LR
+    subgraph "Input Phase"
+        A[Initial Prompt]
+    end
+
+    subgraph "Processing Phase"
+        B[Draft 1<br>Quick Response]
+        C[Self-Critique]
+        D[Draft 2<br>Refinement]
+        E[Further Critique]
+        F[Draft 3<br>Polish]
+    end
+
+    subgraph "Output Phase"
+        G[Final Delivery]
+    end
+
+    A --> B
+    B --> C
+    C --> D
+    D --> E
+    E --> F
+    F --> G
+
+    style A fill:#bbf,stroke:#333,stroke-width:2px,color:#000
+    style B fill:#ddf,stroke:#333,stroke-width:1px,color:#000
+    style C fill:#ccf,stroke:#333,stroke-width:2px,color:#000
+    style D fill:#ddf,stroke:#333,stroke-width:1px,color:#000
+    style E fill:#ccf,stroke:#333,stroke-width:2px,color:#000
+    style F fill:#ddf,stroke:#333,stroke-width:1px,color:#000
+    style G fill:#dfd,stroke:#333,stroke-width:2px,color:#000
+```
+
+```mermaid
+%%{ init: { 'theme': 'neutral' } }%%
+graph LR
+    subgraph "Input Phase"
+        A[Initial Prompt]
+    end
+
+    subgraph "Processing Phase"
+        B[Draft 1<br>Quick Response]
+        C[Self-Critique]
+        D[Draft 2<br>Refinement]
+        E[Further Critique]
+        F[Draft 3<br>Polish]
+    end
+
+    subgraph "Output Phase"
+        G[Final Delivery]
+    end
+
+    A --> B
+    B --> C
+    C --> D
+    D --> E
+    E --> F
+    F --> G
+
+    style A fill:#bbf,stroke:#333,stroke-width:2px,color:#000
+    style B fill:#ddf,stroke:#333,stroke-width:1px,color:#000
+    style C fill:#ccf,stroke:#333,stroke-width:2px,color:#000
+    style D fill:#ddf,stroke:#333,stroke-width:1px,color:#000
+    style E fill:#ccf,stroke:#333,stroke-width:2px,color:#000
+    style F fill:#ddf,stroke:#333,stroke-width:1px,color:#000
+    style G fill:#dfd,stroke:#333,stroke-width:2px,color:#000
+```
 
 As this field continues to evolve, implementing such iterative approaches will be key to pushing the capabilities of existing models further, enabling more complex and reliable AI-generated content without solely waiting for the next generation of larger, more computationally intensive architectures. The ability to refine, self-correct, and build upon previous attempts is a hallmark of advanced reasoning, and CoD brings LLMs a step closer to that ideal.
 

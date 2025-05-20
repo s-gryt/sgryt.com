@@ -1,3 +1,9 @@
+## [1.24.1](https://github.com/s-gryt/sgryt.com/compare/v1.24.0...v1.24.1) (2025-05-20)
+
+### Bug Fixes
+
+- **blog:** enhance Chain of Draft post with visual aids ([e417eed](https://github.com/s-gryt/sgryt.com/commit/e417eed4b5c4d0261aca0a0f687c1e8efafc40b7))
+
 # [1.24.0](https://github.com/s-gryt/sgryt.com/compare/v1.23.0...v1.24.0) (2025-05-20)
 
 ### Features

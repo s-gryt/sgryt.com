@@ -5,6 +5,7 @@
   "scripts": {
     "build:watch": "bundle exec jekyll serve --livereload",
     "commit": "git cz",
+    "cspell": "cspell \"/**/*.md\" --no-must-find-files",
     "lint:fix": "eslint --fix .",
     "lint": "eslint .",
     "markdownlint": "markdownlint *.md",

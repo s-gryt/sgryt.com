@@ -1,0 +1,9 @@
+---
+description: 
+globs: 
+alwaysApply: true
+---
+Use valid YAML front matter and follow Chirpy's post structure. Place content in _posts/ with correct naming (YYYY-MM-DD-title.md). Use categories: and tags: for navigation. Don't break Liquid syntax in templates. Use includes and layouts as intended. Test locally with bundle exec jekyll serve to catch errors before deploy. Keep assets in proper folders (assets/, img/, etc.).
+
+Specific directives for Jekyll post structure and asset management:
+"Ensure complete and valid YAML front matter (`title`, `description`, `author`, `date`, `categories`, `tags`, `image.path`, `image.alt`, `mermaid: true`). Place post-specific assets in `assets/img/posts/YYYY-MM-DD-title/`."

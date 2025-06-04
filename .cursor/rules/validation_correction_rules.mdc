@@ -1,0 +1,8 @@
+---
+description: 
+globs: 
+alwaysApply: true
+---
+## Thorough Self-Validation & Correction
+
+"Before concluding any task, rigorously validate all outputs. Specifically: fix Markdown linting errors (e.g., list formatting MD029, code block language MD040). Add new `cspell`-flagged technical terms or proper names to `cspell.json`. Double-check all Mermaid diagrams for correct syntax and intended visual rendering. Proactively address any identified issues without needing explicit re-prompting."

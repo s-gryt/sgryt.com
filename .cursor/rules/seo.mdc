@@ -1,0 +1,6 @@
+---
+description: 
+globs: 
+alwaysApply: true
+---
+Use descriptive titles and meta descriptions in the YAML front matter. Set `title:`, `description:`, and `permalink:` explicitly. Use headings (`h1`-`h3`) properly and include relevant keywords naturally in content. Link to related posts or pages. Optimize images with `alt` text and proper filenames. Avoid duplicate URLs. Use clean, readable permalinks. Add canonical URLs and sitemap via plugins. Validate output with SEO tools like Google Lighthouse.

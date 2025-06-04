@@ -1,0 +1,6 @@
+---
+description: 
+globs: 
+alwaysApply: true
+---
+Write clearly and concisely using active voice; avoid jargon. Use headings, lists, and bullet points. Start with a summary. Always include code examples. For APIs, document endpoint, parameters, response, and example. Explain errors and offer fixes. Follow project terminology and naming. Avoid placeholders and incomplete code. Reference related docs when useful.

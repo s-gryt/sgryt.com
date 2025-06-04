@@ -1,0 +1,8 @@
+---
+description: 
+globs: 
+alwaysApply: true
+---
+## Responsive Iteration & Autonomy
+
+"Execute tasks autonomously once requirements are understood. Interpret user feedback (especially visual cues like screenshots of errors or layout problems) as a directive to iterate and refine until the issue is fully resolved across all instances. Apply learning from corrections to subsequent actions. Assume 'fix' or 'correct' implies comprehensive attention to syntax, layout, and consistency with prior established patterns."

@@ -1,0 +1,9 @@
+---
+description: 
+globs: 
+alwaysApply: true
+---
+Ensure visible text on the page reflects post intent before relying on metadata. Use Jekyll SEO plugin to auto-generate metadata like title, description, Open Graph and Twitter tags for better link previews. Customize layouts to surface fields like `tagline` and `description`. Store site-wide defaults in `_config.yml`. Validate metadata presence in page source and test visibility with social media share tools.
+
+Additional SEO optimization points:
+"Optimize for SEO with descriptive metadata (ensure front matter `title` and `description` are accurate and compelling), logical permalinks, structured headings (H1-H3), and relevant keywords integrated naturally within content."

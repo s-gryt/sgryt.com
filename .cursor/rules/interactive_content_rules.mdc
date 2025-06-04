@@ -1,0 +1,8 @@
+---
+description: 
+globs: 
+alwaysApply: true
+---
+## Content Examples & Interactivity
+
+"For technical content, provide concrete, real-world examples for all concepts. When illustrating processes or comparisons (e.g., 'Practical Applications' sections), create interactive Mermaid diagrams to enhance engagement. Ensure these diagrams are clear, appropriately sized for blog display, and use established styling conventions (colors, node shapes) for consistency."

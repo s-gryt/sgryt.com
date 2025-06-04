@@ -1,0 +1,8 @@
+---
+description: 
+globs: 
+alwaysApply: true
+---
+## Mermaid Diagram Standards
+
+"Use standard Mermaid flowcharts (`graph LR/TD`) or `sequenceDiagram`. Always include `%%{ init: { 'theme': 'base', 'themeVariables': { /* e.g., fontSize, colors */ } } }%%` (or user-specified theme like 'neutral') for theme adaptability and styling. Validate syntax rigorously to prevent rendering errors. Ensure readability via horizontal layouts, appropriate font sizes (12-16px), and clear text formatting within nodes (using `<br>`, `&nbsp;`, bullet points •)."

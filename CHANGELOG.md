@@ -1,3 +1,9 @@
+# [1.25.0](https://github.com/s-gryt/sgryt.com/compare/v1.24.1...v1.25.0) (2025-06-04)
+
+### Features
+
+- **blog:** add new post on AI security and prompt injection ([bac3650](https://github.com/s-gryt/sgryt.com/commit/bac3650081ef654d12ac399003952e577ffda78c))
+
 ## [1.24.1](https://github.com/s-gryt/sgryt.com/compare/v1.24.0...v1.24.1) (2025-05-20)
 
 ### Bug Fixes

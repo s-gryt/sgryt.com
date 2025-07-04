@@ -1,3 +1,9 @@
+# [1.26.0](https://github.com/s-gryt/sgryt.com/compare/v1.25.0...v1.26.0) (2025-07-04)
+
+### Features
+
+- **blog:** add new post on AI focus and automation ([23a8330](https://github.com/s-gryt/sgryt.com/commit/23a8330cbf612bd4c88acbae9aae8d0afba3cdc5))
+
 # [1.25.0](https://github.com/s-gryt/sgryt.com/compare/v1.24.1...v1.25.0) (2025-06-04)
 
 ### Features

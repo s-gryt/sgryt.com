@@ -34,7 +34,7 @@ image:
 
 ## Technical Debt: Unpacking the Software Quality Challenge
 
-In the realm of software development, there's an invisible force that can significantly impact your projects and their long-term success—technical debt. In this comprehensive exploration, we will delve into the heart of technical debt, understanding its origins, its various manifestations, and how to effectively manage it.
+In the realm of software development, there's an invisible force that can significantly impact your projects and their long-term success - technical debt. In this comprehensive exploration, we will delve into the heart of technical debt, understanding its origins, its various manifestations, and how to effectively manage it.
 
 ## Unraveling Technical Debt
 

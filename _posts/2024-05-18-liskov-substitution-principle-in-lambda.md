@@ -87,4 +87,4 @@ The Step Functions workflow outlines a basic order processing system for an e-co
 }
 ```
 
-The Lambda functions appear well-defined and clear in their responsibilities within the order processing workflow. Each function—`ProcessOrder`, `CalculateShipping`, and `
+The Lambda functions appear well-defined and clear in their responsibilities within the order processing workflow. Each function - `ProcessOrder`, `CalculateShipping`, and `

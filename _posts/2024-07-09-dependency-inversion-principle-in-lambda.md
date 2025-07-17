@@ -423,7 +423,7 @@ describe("Performance Metrics", () => {
 
 ## Cost Optimization in Serverless Architectures: The Role of Dependency Inversion
 
-When optimizing serverless systems for cost, developers focus on reducing unnecessary resource consumption and enhancing operational efficiency. [**Cold starts**](https://docs.aws.amazon.com/lambda/latest/dg/lambda-runtime-environment.html#cold-start-latency)—the delay when AWS Lambda functions initialize—are one of the key factors that affect both performance and cost. Lambda charges are based on the duration of the function's execution, including the cold start time.
+When optimizing serverless systems for cost, developers focus on reducing unnecessary resource consumption and enhancing operational efficiency. [**Cold starts**](https://docs.aws.amazon.com/lambda/latest/dg/lambda-runtime-environment.html#cold-start-latency) - the delay when AWS Lambda functions initialize - are one of the key factors that affect both performance and cost. Lambda charges are based on the duration of the function's execution, including the cold start time.
 
 To address this, Lambda functions should be optimized to minimize the cold start latency. Using **Dependency Inversion Principle (DIP)** in the design of Lambda functions can help here by allowing better separation of concerns and reducing unnecessary dependencies.
 
@@ -538,7 +538,7 @@ The result? A serverless architecture that's not just efficient, but also a joy 
 
 ## Continuous Improvement Through Flexible Architecture
 
-Serverless applications are not static—they require regular updates and changes. A major benefit of applying **Dependency Inversion** is the ability to continually evolve your Lambda functions without disrupting the entire architecture.
+Serverless applications are not static - they require regular updates and changes. A major benefit of applying **Dependency Inversion** is the ability to continually evolve your Lambda functions without disrupting the entire architecture.
 
 When you design with **DIP**, your application components are loosely coupled. This means that new functionality, third-party services, or even API updates can be integrated easily, enabling smoother evolution and reducing the need for costly re-architectures.
 
@@ -546,7 +546,7 @@ When you design with **DIP**, your application components are loosely coupled. T
 
 ## Conclusion: Scaling Serverless Efficiently with Dependency Inversion
 
-**Dependency Inversion** in serverless architectures isn't just about cleaner code—it's a game-changer for scalability and cost control. By decoupling business logic from infrastructure concerns, you gain the flexibility to swap implementations, optimize performance, and future-proof your applications. Loosely coupled components lead to faster cold starts, smoother updates, and more efficient resource allocation.
+**Dependency Inversion** in serverless architectures isn't just about cleaner code - it's a game-changer for scalability and cost control. By decoupling business logic from infrastructure concerns, you gain the flexibility to swap implementations, optimize performance, and future-proof your applications. Loosely coupled components lead to faster cold starts, smoother updates, and more efficient resource allocation.
 
 - ♻️**Cost efficiency:** Optimizing dependencies reduces unnecessary compute time.
 - ♻️**Faster cold starts:** Minimize initialization overhead by loading only what's needed.

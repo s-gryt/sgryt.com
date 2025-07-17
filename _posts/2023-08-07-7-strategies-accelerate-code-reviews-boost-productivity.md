@@ -99,4 +99,4 @@ Our bi-weekly code review sessions became a cornerstone of our team's growth. We
 - [GitHub's Code Review Best Practices](https://docs.github.com/en/pull-requests/collaborating-with-pull-requests/reviewing-changes-in-pull-requests/about-pull-request-reviews)
 - [Google's Engineering Practices Documentation](https://google.github.io/eng-practices/)
 
-By implementing these strategies, we transformed our code review process from a bottleneck into a catalyst for team growth and code quality. Remember, the goal isn't just faster reviews—it's better software and a stronger team. 🚀👩‍💻👨‍💻
+By implementing these strategies, we transformed our code review process from a bottleneck into a catalyst for team growth and code quality. Remember, the goal isn't just faster reviews - it's better software and a stronger team. 🚀👩‍💻👨‍💻

@@ -231,9 +231,9 @@ Applying the Single Responsibility Principle in AWS Lambda functions offers seve
 
 ## Conclusion: Why SRP Matters
 
-The Single Responsibility Principle is more than just a rule for organizing code—it's a mindset for creating modular systems that are easier to maintain and scale. By understanding actors and their roles in driving change within a system, developers can design software that adapts seamlessly to evolving requirements.
+The Single Responsibility Principle is more than just a rule for organizing code - it's a mindset for creating modular systems that are easier to maintain and scale. By understanding actors and their roles in driving change within a system, developers can design software that adapts seamlessly to evolving requirements.
 
-While there's no strict formula for applying SRP, practicing it consistently helps refine your engineering intuition over time. Focus on identifying clear reasons for change and grouping related responsibilities together—this will lead you toward cleaner codebases and more robust software designs. This revised content maintains clarity while ensuring it covers the topic thoroughly without excessive text. Each section is structured with SEO-friendly headers for better visibility.
+While there's no strict formula for applying SRP, practicing it consistently helps refine your engineering intuition over time. Focus on identifying clear reasons for change and grouping related responsibilities together - this will lead you toward cleaner codebases and more robust software designs. This revised content maintains clarity while ensuring it covers the topic thoroughly without excessive text. Each section is structured with SEO-friendly headers for better visibility.
 
 ## Related Posts
 

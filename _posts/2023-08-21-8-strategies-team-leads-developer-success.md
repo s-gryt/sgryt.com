@@ -144,4 +144,4 @@ Team leads can influence broader organizational success through:
 - [Google's Engineering Leadership](https://rework.withgoogle.com/guides/managers-identify-what-makes-a-great-manager/steps/learn-about-googles-manager-research/)
 - [Spotify's Engineering Culture](https://engineering.atspotify.com/2014/03/27/spotify-engineering-culture-part-1/)
 
-By implementing these strategies, team leads can create an environment where developers thrive, software quality improves, and business objectives are consistently met. Remember, great leadership isn't about having all the answers—it's about creating the conditions for your team to find them. 🚀👨‍💻👩‍💻
+By implementing these strategies, team leads can create an environment where developers thrive, software quality improves, and business objectives are consistently met. Remember, great leadership isn't about having all the answers - it's about creating the conditions for your team to find them. 🚀👨‍💻👩‍💻

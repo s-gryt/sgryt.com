@@ -30,7 +30,7 @@ mermaid: true
 
 ## Ever Launched an AI Task and Wondered, "Now What?"
 
-You kick off a long-running AI job, grab a coffee, maybe check your email, and before you know it, you've forgotten all about the task you started. I've been there—and I wanted a smarter, more efficient way to keep my workflow moving without missing a beat.
+You kick off a long-running AI job, grab a coffee, maybe check your email, and before you know it, you've forgotten all about the task you started. I've been there - and I wanted a smarter, more efficient way to keep my workflow moving without missing a beat.
 
 ## The Opportunity: Optimizing Focus When Working with AI
 
@@ -99,7 +99,7 @@ graph TD;
 
 ## Troubleshooting & FAQ
 
-**Q: My notifications aren't showing up—what should I check?**  
+**Q: My notifications aren't showing up - what should I check?**  
 A: Make sure you're running the script locally, not on a remote server. For Linux, ensure `notify-send` is installed. For Windows, check that notifications are enabled in system settings.
 
 **Q: Can I customize the notification sound or message?**  

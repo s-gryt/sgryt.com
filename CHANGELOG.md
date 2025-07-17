@@ -1,3 +1,13 @@
+# [1.27.0](https://github.com/s-gryt/sgryt.com/compare/v1.26.0...v1.27.0) (2025-07-17)
+
+### Bug Fixes
+
+- **blog:** correct punctuation in multiple posts ([6a292ee](https://github.com/s-gryt/sgryt.com/commit/6a292eea7de810a5f6a58b95212664a773fe9b30))
+
+### Features
+
+- **blog:** add new post on AI's role in complex bug detection ([48e1a80](https://github.com/s-gryt/sgryt.com/commit/48e1a808dc4fa512150ee3cbd09c1e617a84ccfc))
+
 # [1.26.0](https://github.com/s-gryt/sgryt.com/compare/v1.25.0...v1.26.0) (2025-07-04)
 
 ### Features

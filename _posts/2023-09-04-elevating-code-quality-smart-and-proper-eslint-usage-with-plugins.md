@@ -246,11 +246,176 @@ To optimize your `ESLint` setup, consider the following strategies:
 3. Disable rules that aren't crucial for your project.
 4. Utilize [overrides](https://eslint.org/docs/latest/use/configure/configuration-files){:target="\_blank"} to fine-tune rules for specific parts of your codebase.
 
-## Prettier Integration
+## Prettier Integration: Separate Tools, Better Results
 
-You can further enhance `ESLint` performance by integrating it with [Prettier](https://prettier.io/docs/en/integrating-with-linters.html){:target="\_blank"}, a code formatter. This integration helps by disabling `ESLint` rules related to code formatting, allowing `Prettier` to handle this aspect.
+The most effective approach is to keep `ESLint` and `Prettier` as **separate tools** with distinct responsibilities:
 
-Once you've consolidated your `ESLint` configuration, consider publishing it to npm to make it reusable across various repositories. This way, your dependencies are locked in, reducing the chances of unexpected issues cropping up.
+- **ESLint**: Code quality, logic issues, potential bugs
+- **Prettier**: Code formatting, style consistency
+
+This separation eliminates conflicts, improves performance, and provides clearer mental models for your development workflow.
+
+### Step 1: Install Dependencies
+
+```bash
+npm install --save-dev prettier eslint-config-prettier
+```
+
+- `prettier`: The core Prettier formatter
+- `eslint-config-prettier`: Disables ESLint formatting rules that conflict with Prettier
+
+**Note**: We intentionally avoid `eslint-plugin-prettier` as it makes Prettier run as an ESLint rule, which defeats the purpose of separation.
+
+### Step 2: Configure ESLint (No Formatting Rules)
+
+Update your `.eslintrc.json`:
+
+```json
+{
+  "extends": [
+    "eslint:recommended",
+    "@typescript-eslint/recommended",
+    "prettier"
+  ]
+}
+```
+
+**Critical**: Place `"prettier"` last in the extends array to disable conflicting ESLint formatting rules.
+
+### Step 3: Create Prettier Configuration
+
+Create a `.prettierrc.json` file:
+
+```json
+{
+  "semi": true,
+  "trailingComma": "es5",
+  "singleQuote": true,
+  "printWidth": 80,
+  "tabWidth": 2,
+  "useTabs": false
+}
+```
+
+### Step 4: Add Separate Scripts
+
+```json
+{
+  "scripts": {
+    "lint": "eslint . --ext .js,.jsx,.ts,.tsx",
+    "lint:fix": "eslint . --ext .js,.jsx,.ts,.tsx --fix",
+    "format": "prettier --write .",
+    "format:check": "prettier --check .",
+    "check-all": "npm run lint && npm run format:check"
+  }
+}
+```
+
+### Step 5: IDE Configuration
+
+For **VSCode**, create `.vscode/settings.json`:
+
+```json
+{
+  "editor.defaultFormatter": "esbenp.prettier-vscode",
+  "editor.formatOnSave": true,
+  "editor.codeActionsOnSave": {
+    "source.fixAll.eslint": true
+  },
+  "eslint.validate": [
+    "javascript",
+    "javascriptreact",
+    "typescript",
+    "typescriptreact"
+  ]
+}
+```
+
+This configuration:
+
+- Uses Prettier for formatting on save
+- Uses ESLint for code quality fixes on save
+- Keeps the tools separate
+
+### Recommended Workflow
+
+**Development**:
+
+1. Write code
+2. ESLint auto-fixes code quality issues on save
+3. Prettier auto-formats code on save
+
+**Pre-commit**:
+
+```bash
+npm run lint:fix && npm run format
+```
+
+**CI/CD**:
+
+```bash
+npm run lint && npm run format:check
+```
+
+### Pre-commit Hooks (Separate Tools)
+
+Using [lint-staged](https://github.com/okonet/lint-staged) and [husky](https://github.com/typicode/husky):
+
+```json
+{
+  "husky": {
+    "hooks": {
+      "pre-commit": "lint-staged"
+    }
+  },
+  "lint-staged": {
+    "*.{js,jsx,ts,tsx}": ["eslint --fix", "prettier --write"]
+  }
+}
+```
+
+### Conflict Detection
+
+Use this diagnostic command to ensure no formatting conflicts:
+
+```bash
+npx eslint-config-prettier src/your-file.js
+```
+
+This validates that all conflicting ESLint rules are properly disabled.
+
+### Benefits of Separate Tools
+
+- **Performance**: Each tool runs optimally for its purpose
+- **Clarity**: Clear separation of concerns
+- **Flexibility**: Can run tools independently
+- **Debugging**: Easier to identify which tool is causing issues
+- **Future-proof**: Tools can evolve independently
+
+### Troubleshooting
+
+**Problem**: ESLint and Prettier disagree on formatting
+**Solution**: Ensure `eslint-config-prettier` is installed and `"prettier"` is last in extends array
+
+**Problem**: Code gets formatted twice differently
+**Solution**: Check that ESLint formatting rules are disabled by `eslint-config-prettier`
+
+**Problem**: IDE conflicts between tools
+**Solution**: Configure IDE to use Prettier for formatting and ESLint for linting only
+
+### Publishing Shareable Configurations
+
+Once you've perfected your setup, publish separate configs:
+
+```bash
+# ESLint config
+npm publish @yourorg/eslint-config
+
+# Prettier config
+npm publish @yourorg/prettier-config
+```
+
+This approach ensures your dependencies are locked and reusable across repositories while maintaining the separation of concerns.
 
 ## Integrating ESLint into Your Workflow
 

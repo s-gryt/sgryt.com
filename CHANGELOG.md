@@ -1,3 +1,10 @@
+# [1.28.0](https://github.com/s-gryt/sgryt.com/compare/v1.27.0...v1.28.0) (2025-07-31)
+
+### Features
+
+- **blog:** add new post on parallel AI development ([ee4780d](https://github.com/s-gryt/sgryt.com/commit/ee4780d8ca175d3f5b387618bebaf22e33ad6d75))
+- **eslint:** update prettier integration section ([d3389f2](https://github.com/s-gryt/sgryt.com/commit/d3389f2498282b8cf5747c5aebb7627fbf9f5687))
+
 # [1.27.0](https://github.com/s-gryt/sgryt.com/compare/v1.26.0...v1.27.0) (2025-07-17)
 
 ### Bug Fixes

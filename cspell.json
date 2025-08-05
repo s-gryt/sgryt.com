@@ -137,5 +137,22 @@
     "пользователя",
     "этот"
   ],
-  "ignorePaths": ["CHANGELOG.md"]
+  "ignorePaths": ["CHANGELOG.md"],
+  "ignoreWords": [
+    "AIRAG",
+    "FISMA",
+    "Hella",
+    "MMLU",
+    "Ollama",
+    "aiohttp",
+    "asyncio",
+    "chromadb",
+    "dataclass",
+    "dataclasses",
+    "exfiltration",
+    "nomic",
+    "ollama",
+    "Weaviate",
+    "xlarge"
+  ]
 }

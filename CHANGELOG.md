@@ -1,3 +1,9 @@
+# [1.29.0](https://github.com/s-gryt/sgryt.com/compare/v1.28.0...v1.29.0) (2025-08-05)
+
+### Features
+
+- **blog:** add new post on self-hosted vs API-driven RAG architectures ([d14014f](https://github.com/s-gryt/sgryt.com/commit/d14014f25039dc2b0e7f12f2968c95ab22684a35))
+
 # [1.28.0](https://github.com/s-gryt/sgryt.com/compare/v1.27.0...v1.28.0) (2025-07-31)
 
 ### Features

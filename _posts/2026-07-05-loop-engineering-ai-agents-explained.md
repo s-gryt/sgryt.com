@@ -29,9 +29,9 @@ image:
 
 ## From prompt to loop: four layers, one job
 
-Prompt engineering, context engineering, harness engineering, loop engineering — four terms, a few years apart. The easiest way to see what each one actually buys you is to run one small job through all four and watch where each stops being enough.
+Prompt engineering, context engineering, harness engineering, and loop engineering arrived a few years apart, each building on the one before it. The easiest way to see what each one adds is to run one small job through all four and watch where each stops being enough.
 
-So take a small online store. Every morning, someone has to check whether the supplier's prices moved overnight, whether anything sold out, and whether a customer flagged a broken checkout step in a support ticket. That is the job. Walking it through prompt, context, harness, and loop engineering in order shows what each layer actually does, instead of leaving these as marketing labels.
+So take a small online store. Every morning, someone has to check whether the supplier's prices moved overnight, whether anything sold out, and whether a customer flagged a broken checkout step in a support ticket. That is the job. Walking it through prompt, context, harness, and loop engineering in order shows what each layer does in practice.
 
 ## Prompt engineering: writing the one good instruction
 

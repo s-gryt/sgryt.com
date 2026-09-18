@@ -1,3 +1,15 @@
+# [1.30.0](https://github.com/s-gryt/sgryt.com/compare/v1.29.0...v1.30.0) (2026-09-18)
+
+### Bug Fixes
+
+- resume dev container building ([80a2f2d](https://github.com/s-gryt/sgryt.com/commit/80a2f2d956ac56828432d89c2cb069a7925faa4f))
+- resume dev container building ([ff35c79](https://github.com/s-gryt/sgryt.com/commit/ff35c79cf3ad69a1a1a007793f3b027426e0ffaa))
+
+### Features
+
+- **2026-07-05:** add loop engineering explained ([68fc9d2](https://github.com/s-gryt/sgryt.com/commit/68fc9d2820087c167fa4914a879802addf31798a))
+- **2026-07-05:** add loop engineering explained ([477193a](https://github.com/s-gryt/sgryt.com/commit/477193ad77efecf0f29eec3362c048dba20c4d0d))
+
 # [1.29.0](https://github.com/s-gryt/sgryt.com/compare/v1.28.0...v1.29.0) (2025-08-05)
 
 ### Features

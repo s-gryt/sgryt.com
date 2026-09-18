@@ -26,7 +26,10 @@
       ]
     }
   },
-  "postCreateCommand": "/bin/sh .devcontainer/post-create.sh"
+  "postCreateCommand": "/bin/sh .devcontainer/post-create.sh",
+  "mounts": [
+    "source=${localEnv:HOME}/.ssh,target=/root/.ssh,type=bind,readonly"
+  ]
 
   // Features to add to the dev container. More info: https://containers.dev/features.
   // "features": {},
